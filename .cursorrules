@@ -1,0 +1,25 @@
+# Project Rules
+
+## Stack
+
+- Frontend: React + TypeScript + Vite + TailwindCSS (app/)
+- Backend: Node.js + TypeScript (server/)
+
+## Paleta de colores
+
+Colores: #02ffff, #0c154c, #eff6ff, #1d4ed8, #42d7c7
+Variables ubicadas en el index.css
+
+## Convenciones
+
+- Usar TypeScript estrictamente
+- Usar componentes funcionales en React
+- Mantener los componentes pequeños y enfocados
+
+## Aquitectura
+
+- Feature-Based en el frontend
+
+## Carpetas
+
+- Antes de crear revisar las carpetas que ya estan creadas
