@@ -1,0 +1,419 @@
+import { useMemo, useState, useEffect } from 'react'
+import type { Subject } from '../types/subject'
+
+function useWindowSize() {
+  const [size, setSize] = useState({ width: 0, height: 0 })
+  useEffect(() => {
+    const check = () => setSize({ width: window.innerWidth, height: window.innerHeight })
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
+  return size
+}
+
+function splitText(text: string, maxLen: number): string[] {
+  if (text.length <= maxLen) return [text]
+  const words = text.split(' ')
+  const lines: string[] = []
+  let current = ''
+  for (const w of words) {
+    if (!current) {
+      current = w
+    } else if (current.length + 1 + w.length <= maxLen) {
+      current += ' ' + w
+    } else {
+      lines.push(current)
+      current = w
+    }
+  }
+  if (current) lines.push(current)
+  if (lines.length > 2) {
+    return [lines[0], lines[1].slice(0, maxLen - 1) + '…']
+  }
+  return lines
+}
+
+// Colores por año — distintos entre sí, armonizan con el fondo oscuro
+const YEAR_COLORS: Record<number, { bg: string; border: string; text: string; hex: string }> = {
+  0: { hex: '#9ca3af', bg: 'color-mix(in srgb, #9ca3af 14%, var(--color-bg))', border: '#9ca3af', text: 'var(--color-text)' }, // Requisitos: Gris
+  1: { hex: '#02ffff', bg: 'color-mix(in srgb, #02ffff 14%, var(--color-bg))', border: '#02ffff', text: 'var(--color-text)' },
+  2: { hex: '#f59e0b', bg: 'color-mix(in srgb, #f59e0b 14%, var(--color-bg))', border: '#f59e0b', text: 'var(--color-text)' },
+  3: { hex: '#a78bfa', bg: 'color-mix(in srgb, #a78bfa 14%, var(--color-bg))', border: '#a78bfa', text: 'var(--color-text)' },
+  4: { hex: '#34d399', bg: 'color-mix(in srgb, #34d399 14%, var(--color-bg))', border: '#34d399', text: 'var(--color-text)' },
+  5: { hex: '#f472b6', bg: 'color-mix(in srgb, #f472b6 14%, var(--color-bg))', border: '#f472b6', text: 'var(--color-text)' },
+  99: { hex: '#fbbf24', bg: 'color-mix(in srgb, #fbbf24 14%, var(--color-bg))', border: '#fbbf24', text: 'var(--color-text)' }, // Optativas: Amarillo Oro
+}
+
+export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject[], onSelect: (cod: number | string) => void }) {
+  const getSubjectType = (subject: Subject): number => {
+    if (subject.type === 'requirement') return 0 // Requisitos
+    if (subject.type === 'optional') return 99 // Optativas/Otros
+    return Number(subject.year)
+  }
+
+  const [hovered, setHovered] = useState<number | string | null>(null)
+  const { width: winW } = useWindowSize()
+  const isXs = winW > 0 && winW < 400
+  const isMobile = winW > 0 && winW < 768
+  const isTablet = winW >= 768 && winW < 1024
+  const isWide = winW >= 1440
+
+  // Layout responsivo para ajustar tamaños de contenedor a múltiples vistas
+  const NODE_W = isXs ? 135 : isMobile ? 160 : isTablet ? 170 : isWide ? 200 : 180
+  const NODE_H = isXs ? 64 : isMobile ? 68 : isTablet ? 70 : isWide ? 84 : 76
+  const PADDING = isMobile ? 16 : isTablet ? 24 : 40
+  const COL_GAP = isXs ? 10 : isMobile ? 16 : isTablet ? 30 : isWide ? 50 : 40
+  const ROW_GAP = isMobile ? 16 : isTablet ? 20 : isWide ? 30 : 24
+  const SEMESTER_GAP = isMobile ? 40 : 0
+
+  // Fuentes dinámicas
+  const FONT_MAIN = isXs ? 9 : isMobile ? 10 : isTablet ? 12 : isWide ? 14 : 13
+  const FONT_NUM = isMobile ? 9 : isTablet ? 10 : isWide ? 12 : 11
+  const FONT_CORR = isMobile ? 8 : isTablet ? 9 : isWide ? 10 : 9
+  const FONT_HEADER = isMobile ? 12 : isTablet ? 14 : isWide ? 16 : 14
+
+  const regularSubjects = useMemo(() => subjects.filter(s => {
+    const t = getSubjectType(s)
+    return t !== 0 && t !== 99
+  }), [subjects])
+
+  const optativas = useMemo(() => subjects.filter(s => getSubjectType(s) === 99), [subjects])
+  const requisitos = useMemo(() => subjects.filter(s => getSubjectType(s) === 0), [subjects])
+
+  const positions = useMemo(() => {
+    const map: Record<number | string, { x: number; y: number }> = {}
+    for (const subject of regularSubjects) {
+      const colIndex = getSubjectType(subject) - 1
+      const subjectsInYear = regularSubjects.filter(
+        mat => getSubjectType(mat) === getSubjectType(subject)
+      )
+      const idx = subjectsInYear.findIndex(mat => mat.cod === subject.cod)
+
+      if (isMobile) {
+        // Mobile layout: temporal flow goes top-down
+        const col = idx % 2
+        const rowInYear = Math.floor(idx / 2)
+        const x = PADDING + col * (NODE_W + COL_GAP)
+        
+        let prevYearsHeight = 0
+        for (let i = 0; i < colIndex; i++) {
+          const count = regularSubjects.filter(
+            mat => getSubjectType(mat) === i + 1
+          ).length
+          const rows = Math.ceil(count / 2)
+          prevYearsHeight += rows * (NODE_H + ROW_GAP) + SEMESTER_GAP
+        }
+
+        const y = PADDING + prevYearsHeight + SEMESTER_GAP + rowInYear * (NODE_H + ROW_GAP)
+        map[subject.cod] = { x, y }
+      } else {
+        // Desktop layout: temporal flow goes left-right
+        const x = PADDING + colIndex * (NODE_W + COL_GAP)
+        const y = PADDING + idx * (NODE_H + ROW_GAP)
+        map[subject.cod] = { x, y }
+      }
+    }
+    return map
+  }, [isMobile, NODE_W, NODE_H, COL_GAP, ROW_GAP, PADDING, SEMESTER_GAP, regularSubjects])
+
+  // Compute SVG boundaries for regular subjects
+  let maxX = 0, maxY = 0
+  for (const pos of Object.values(positions)) {
+    if (pos.x > maxX) maxX = pos.x
+    if (pos.y > maxY) maxY = pos.y
+  }
+  const svgWidth = Object.keys(positions).length > 0 ? maxX + NODE_W + PADDING : 0
+  const svgHeight = Object.keys(positions).length > 0 ? maxY + NODE_H + PADDING : 0
+
+  // Correlativas to highlight on hover (solo directas)
+  const highlightedIds = useMemo(() => {
+    if (!hovered) return new Set<number | string>()
+    const ids = new Set<number | string>([hovered])
+    
+    const mat = subjects.find(m => m.cod === hovered)
+    if (mat) {
+      for (const cId of mat.prerequisites) {
+        ids.add(cId)
+      }
+    }
+    
+    return ids
+  }, [hovered, subjects])
+
+  const renderExtraNode = (subject: Subject, yearType: number) => {
+    const num = subject.cod
+    const colors = YEAR_COLORS[yearType] || YEAR_COLORS[99]
+    const isActive = hovered === null || highlightedIds.has(subject.cod)
+    const isHovered = hovered === subject.cod
+
+    return (
+      <div
+        key={subject.cod}
+        onMouseEnter={() => setHovered(subject.cod)}
+        onMouseLeave={() => setHovered(null)}
+        onClick={() => onSelect(subject.cod)}
+        className="relative rounded-xl flex items-center justify-center p-2 text-center"
+        style={{
+          width: NODE_W,
+          height: NODE_H,
+          backgroundColor: colors.bg,
+          border: `${isHovered ? 2 : 1}px solid ${colors.border}`,
+          opacity: isActive ? 1 : 0.25,
+          cursor: 'pointer',
+          transition: 'opacity 0.2s, border-width 0.15s'
+        }}
+      >
+        {/* Enumeración (# de materia) */}
+        <div className="absolute flex items-center justify-center font-bold"
+             style={{
+               top: '8px',
+               left: '8px',
+               width: '18px',
+               height: '18px',
+               borderRadius: '50%',
+               backgroundColor: colors.bg,
+               border: `1px solid ${colors.border}`,
+               color: colors.text,
+               fontSize: `${FONT_NUM}px`,
+               opacity: isActive ? 1 : 0.4
+             }}>
+          {num}
+        </div>
+
+        {/* Text */}
+        <div className="flex flex-col items-center justify-center pointer-events-none select-none"
+             style={{ color: colors.text, fontSize: `${FONT_MAIN}px`, fontWeight: isHovered ? 700 : 400, opacity: isActive ? 1 : 0.4 }}>
+          {splitText(subject.name, Math.floor(NODE_W / (isMobile ? 7.5 : 8.2))).map((line, i) => (
+            <span key={i} className="leading-tight">{line}</span>
+          ))}
+        </div>
+
+        {/* Corr */}
+        {subject.prerequisites.length > 0 && (
+          <div className="absolute bottom-1 right-2 pointer-events-none select-none"
+               style={{ fontSize: `${FONT_CORR}px`, color: colors.text, opacity: isActive ? 0.6 : 0.2 }}>
+            Corr: {subject.prerequisites.join(', ')}
+          </div>
+        )}
+      </div>
+    )
+  }
+
+  return (
+    <div className="w-full flex flex-col gap-10">
+      {/* Gráfico SVG Principal */}
+      <div
+        className="w-full overflow-x-auto"
+        style={{ WebkitOverflowScrolling: 'touch' }}
+      >
+        <svg
+          width={svgWidth}
+          height={svgHeight}
+          style={{
+            display: 'block',
+            minWidth: svgWidth,
+            minHeight: svgHeight,
+            margin: '0 auto'
+          }}
+        >
+          {/* Flechas de correlatividad */}
+          {subjects.map(subject =>
+            subject.prerequisites.map(corrCod => {
+              const from = positions[corrCod]
+              const to = positions[subject.cod]
+              if (!from || !to) return null
+
+              const isActive = hovered && highlightedIds.has(subject.cod) && highlightedIds.has(corrCod)
+              if (!isActive) return null
+              
+              let x1, y1, x2, y2, cx, cy, d
+              
+              if (isMobile) {
+                x1 = from.x + NODE_W / 2
+                y1 = from.y + NODE_H
+                x2 = to.x + NODE_W / 2
+                y2 = to.y - 4 // small padding for the arrow tip
+                cy = (y1 + y2) / 2
+                d = `M${x1},${y1} C${x1},${cy} ${x2},${cy} ${x2},${y2}`
+              } else {
+                x1 = from.x + NODE_W
+                y1 = from.y + NODE_H / 2
+                x2 = to.x - 4 // small padding
+                y2 = to.y + NODE_H / 2
+                cx = (x1 + x2) / 2
+                d = `M${x1},${y1} C${cx},${y1} ${cx},${y2} ${x2},${y2}`
+              }
+
+              return (
+                <path
+                  key={`${corrCod}->${subject.cod}`}
+                  d={d}
+                  fill="none"
+                  stroke={isActive ? 'var(--color-primary)' : '#ffffff15'}
+                  strokeWidth={isActive ? 2 : 1.5}
+                  style={{ transition: 'stroke 0.2s, stroke-width 0.2s' }}
+                />
+              )
+            })
+          )}
+
+          {/* Nodos de años 1 al 5 */}
+          {regularSubjects.map((subject) => {
+            const num = subject.cod
+            const { x, y } = positions[subject.cod]
+            const colors = YEAR_COLORS[getSubjectType(subject)] || YEAR_COLORS[1]
+            const isActive = hovered === null || highlightedIds.has(subject.cod)
+            const isHovered = hovered === subject.cod
+
+            return (
+              <g
+                key={subject.cod}
+                onMouseEnter={() => setHovered(subject.cod)}
+                onMouseLeave={() => setHovered(null)}
+                onClick={() => onSelect(subject.cod)}
+                style={{ cursor: 'pointer' }}
+              >
+                <rect
+                  x={x}
+                  y={y}
+                  width={NODE_W}
+                  height={NODE_H}
+                  rx={10}
+                  ry={10}
+                  fill={colors.bg}
+                  stroke={colors.border}
+                  strokeWidth={isHovered ? 2 : 1}
+                  opacity={isActive ? 1 : 0.25}
+                  style={{ transition: 'opacity 0.2s, stroke-width 0.15s' }}
+                />
+                <text
+                  x={x + NODE_W / 2}
+                  y={y + NODE_H / 2}
+                  textAnchor="middle"
+                  dominantBaseline="middle"
+                  fill={colors.text}
+                  fontSize={FONT_MAIN}
+                  fontWeight={isHovered ? 700 : 400}
+                  opacity={isActive ? 1 : 0.4}
+                  style={{ transition: 'opacity 0.2s', userSelect: 'none', pointerEvents: 'none' }}
+                >
+                  {splitText(subject.name, Math.floor(NODE_W / (isMobile ? 7.5 : 8.2))).map((line, i, arr) => (
+                    <tspan
+                      key={i}
+                      x={x + NODE_W / 2}
+                      dy={arr.length === 1 ? 0 : i === 0 ? '-0.4em' : '1.2em'}
+                    >
+                      {line}
+                    </tspan>
+                  ))}
+                </text>
+
+                {/* Enumeración (# de materia) */}
+                <g style={{ userSelect: 'none', pointerEvents: 'none' }}>
+                  <circle cx={x + 12} cy={y + 12} r={9} fill={colors.bg} stroke={colors.border} strokeWidth={1} opacity={isActive ? 1 : 0.4} />
+                  <text x={x + 12} y={y + 13} textAnchor="middle" dominantBaseline="middle" fontSize={FONT_NUM} fontWeight={700} fill={colors.text} opacity={isActive ? 1 : 0.4}>
+                    {num}
+                  </text>
+                </g>
+
+                {/* Correlativas (#) */}
+                {subject.prerequisites.length > 0 && (
+                  <text
+                    x={x + NODE_W - 8}
+                    y={y + NODE_H - 8}
+                    textAnchor="end"
+                    fontSize={FONT_CORR}
+                    fill={colors.text}
+                    opacity={isActive ? 0.6 : 0.2}
+                    style={{ userSelect: 'none', pointerEvents: 'none' }}
+                  >
+                    Corr: {subject.prerequisites.join(', ')}
+                  </text>
+                )}
+
+                {/* Cuatrimestre (Solo mandatory) */}
+                {subject.type === 'mandatory' && subject.semester && (
+                  <text
+                    x={x + NODE_W - 8}
+                    y={y + 14}
+                    textAnchor="end"
+                    fontSize={FONT_CORR}
+                    fontWeight={700}
+                    fill={colors.text}
+                    opacity={isActive ? 0.5 : 0.2}
+                    style={{ userSelect: 'none', pointerEvents: 'none' }}
+                  >
+                    {subject.semester}º Cuat.
+                  </text>
+                )}
+              </g>
+            )
+          })}
+          
+          {/* Headers de años */}
+          {[1, 2, 3, 4, 5].map(year => {
+            const colIndex = year - 1
+            let hx, hy;
+
+            if (isMobile) {
+              let prevYearsHeight = 0
+              for (let i = 0; i < colIndex; i++) {
+                const count = regularSubjects.filter(mat => getSubjectType(mat) === i + 1).length
+                const rows = Math.ceil(count / 2)
+                prevYearsHeight += rows * (NODE_H + ROW_GAP) + SEMESTER_GAP
+              }
+              const baseY = PADDING + prevYearsHeight
+              hx = PADDING + NODE_W + COL_GAP / 2
+              hy = baseY + SEMESTER_GAP / 2 + 6
+            } else {
+              hx = PADDING + colIndex * (NODE_W + COL_GAP) + NODE_W / 2
+              hy = 14
+            }
+
+            return (
+              <text
+                key={`header-${year}`}
+                x={hx}
+                y={hy}
+                textAnchor="middle"
+                fontSize={FONT_HEADER}
+                fontWeight={700}
+                fill={YEAR_COLORS[year]?.hex}
+                opacity={0.8}
+                style={{ userSelect: 'none' }}
+              >
+                AÑO {year}
+              </text>
+            )
+          })}
+        </svg>
+      </div>
+
+      {/* Contenedores de Materias Extra */}
+      <div className="flex flex-col gap-8 px-4 pb-8 sm:px-10 items-center">
+        {optativas.length > 0 && (
+          <div className="w-full flex flex-col items-center">
+            <h3 className="text-sm font-bold mb-4 tracking-wider text-center" style={{ color: YEAR_COLORS[99].hex }}>
+              MATERIAS OPTATIVAS
+            </h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              {optativas.map(subject => renderExtraNode(subject, 99))}
+            </div>
+          </div>
+        )}
+
+        {requisitos.length > 0 && (
+          <div className="w-full flex flex-col items-center">
+            <h3 className="text-sm font-bold mb-4 tracking-wider text-center" style={{ color: YEAR_COLORS[0].hex }}>
+              REQUISITOS EXTRA
+            </h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              {requisitos.map(subject => renderExtraNode(subject, 0))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,1280 @@
+[
+  {
+    "cod": 1,
+    "name": "Introducción a la Programación",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/info.php?id=78",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/F8irjR8jiYQ1wNEOGh2suX?mode=gi_t",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 2,
+    "name": "Álgebra Lineal",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3224",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/CzyprNtYHSc9gn8my681NT",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 3,
+    "name": "Organización de computadoras",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2949",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/ESldtbH90bdCHGDkShp93y",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 4,
+    "name": "Análisis Matemático I",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=426",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/GeZGAz1ZAmv3kW0Imsli7E",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 5,
+    "name": "Metodología de la Programación",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      1
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/info.php?id=167",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/IVRJ0W6nJTV6IMW0Fs5O9B",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 6,
+    "name": "Análisis Matemático II",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      4
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3081",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/IYmCPonUr0z4LnGyOUqx4k?mode=ac_t",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 7,
+    "name": "Física Mecánica",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      2,
+      4
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3082",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/CaGOSIf3tjG2LnBb6TZdYp?mode=gi_t",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 8,
+    "name": "Estructura de Datos",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      1
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2496",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/CqVZChXRJh48BzLXuBQTO5?mode=gi_t",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 9,
+    "name": "Matemática Discreta",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      2
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=464",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "14:00",
+        "endTime": "15:30",
+        "classroom": "",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "11:00",
+        "endTime": "12:30",
+        "classroom": "",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "10:30",
+        "endTime": "13:00",
+        "classroom": "Aula 18",
+        "group": "P1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "13:30",
+        "endTime": "16:00",
+        "classroom": "Aula 18",
+        "group": "P2",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/FCzhJuCnngwKLVzXjK7yot?mode=gi_t",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 10,
+    "name": "Teoría de la Información y la Comunicación",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      3
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=46",
+    "schedules": [
+      {
+        "day": "Jueves",
+        "startTime": "08:30",
+        "endTime": "10:30",
+        "classroom": "Aula 30",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "09:30",
+        "endTime": "11:30",
+        "classroom": "Aula 27",
+        "group": "P1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "Aula 26",
+        "group": "P2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "classroom": "Aula 16",
+        "group": "P3",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/Ke9FOhoRpf28Dv6KxMqbwB",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 11,
+    "name": "Desarrollo Sistemático de Programas",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      5,
+      8
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=120",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "Aula 12",
+        "group": "TP1",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "13:30",
+        "endTime": "16:30",
+        "classroom": "Aula 11",
+        "group": "TP2",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/GUeuJNuNihyE9ST0FCy6Mo",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 12,
+    "name": "Probabilidades y Estadística",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      2,
+      6
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3094",
+    "schedules": [
+      {
+        "day": "Viernes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 15",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 24",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 31",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/FrIByEcOszu5ZVzIskVhLr",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 13,
+    "name": "Electricidad y Magnetismo",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      7
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3244",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": "",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 14,
+    "name": "Bases de Datos",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      5,
+      8
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=54",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 15,
+    "name": "Programación Concurrente",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      5,
+      8
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3100",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 16,
+    "name": "Cálculo Numérico",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      6
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=42",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 17,
+    "name": "Lógica Computacional",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      2
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=137",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "13:00",
+        "endTime": "15:00",
+        "classroom": "Aula 17",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Anfiteatro",
+        "group": "P",
+        "classType": "P",
+        "modality": "hibrido"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/GDl6bTw5tDaDzE3A1Bj8SZ?mode=gi_t",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 18,
+    "name": "Sistemas Operativos I",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      3,
+      5,
+      8
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2511",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "classroom": "Aula 17",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "16:30",
+        "endTime": "18:30",
+        "classroom": "Aula 12",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/ChwOVhop54p2bLvs7q86mn",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 19,
+    "name": "Organización Empresarial y Modelos de Negocios",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      5,
+      8
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2942",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 14",
+        "group": "TP1",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "Aula 28",
+        "group": "TP2",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 20,
+    "name": "Modelado Orientado a Objetos",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      15
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=55",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "Aula 31",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "Aula 11",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/CmncO068J2YL2zhVZHJ8Mx",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 21,
+    "name": "Cursos Optativos",
+    "year": 3,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": "Tener hasta 90 horas acreditadas"
+  },
+  {
+    "cod": 22,
+    "name": "Teoría de Autómatas, Lenguajes y Computación",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      8,
+      17
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2506",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 23,
+    "name": "Sistemas Operativos II",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      18
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2504",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 24,
+    "name": "Métodos de Simulación",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      12,
+      16
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=60",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 25,
+    "name": "Formulación, Evaluación de Proyectos Informáticos y Emprendedorismo Digital",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      19
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3045",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "classroom": "Salón 4",
+        "group": "TP1",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "classroom": "Aula 15",
+        "group": "TP2",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/FFrheXnbFLs1LvIm8SBvgv",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 26,
+    "name": "Calidad de Software y Testing",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      20
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3131",
+    "schedules": [
+      {
+        "day": "Viernes",
+        "startTime": "13:30",
+        "endTime": "16:30",
+        "classroom": "Aula 12",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "20:00",
+        "endTime": "23:00",
+        "classroom": "Salón 5",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 27,
+    "name": "Arquitectura de Redes",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      23
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=33",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "Aula 18",
+        "group": "TP1",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "Aula 17",
+        "group": "TP2",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 28,
+    "name": "Ingeniería del Conocimiento",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      17,
+      20,
+      21,
+      "R1"
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=435",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 29,
+    "name": "Arquitectura de Computadoras Paralelas",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      21,
+      23,
+      27,
+      "R1"
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/info.php?id=21",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 30,
+    "name": "Sistemas de Información",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      20,
+      21,
+      "R1"
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3133",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 31,
+    "name": "Cursos Optativos",
+    "year": 4,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": "Tener hasta 180 horas acreditadas"
+  },
+  {
+    "cod": 32,
+    "name": "Seguridad y Auditoría Informática",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      21,
+      23,
+      "R1"
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=47",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 33,
+    "name": "Ingeniería de Software I",
+    "year": 5,
+    "semester": 1,
+    "prerequisites": [
+      30,
+      31,
+      "R2"
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=831",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 15",
+        "group": "TP1",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "Aula 27",
+        "group": "TP2",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 34,
+    "name": "Sistemas Inteligentes",
+    "year": 5,
+    "semester": 1,
+    "prerequisites": [
+      9,
+      12,
+      16,
+      31,
+      "R2"
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2000",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "Aula 31",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "07:00",
+        "endTime": "10:00",
+        "classroom": "Salón 1",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": "https://chat.whatsapp.com/FqYFSqyiTyiLejdtRRGdc3",
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 35,
+    "name": "Legislación, Ética y Ejercicio Profesional",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      31,
+      "R2"
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2505",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Aula 30",
+        "group": "TP1",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 30",
+        "group": "TP2",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": "Los profes arman el grupo"
+  },
+  {
+    "cod": 36,
+    "name": "Ingeniería de Software II",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      33
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=488",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 37,
+    "name": "Compiladores",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      15
+    ],
+    "classroomUrl": "",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "Aula 16",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "18:00",
+        "endTime": "21:00",
+        "classroom": "Aula 14",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "90 horas acreditables"
+  },
+  {
+    "cod": 38,
+    "name": "Aplicaciones de Bases de Datos I",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      14
+    ],
+    "classroomUrl": "",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 31",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Aula 15",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "90 horas acreditables. Los profes arman el grupo"
+  },
+  {
+    "cod": 39,
+    "name": "Aplicaciones de Bases de Datos II",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      14
+    ],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "90 horas acreditables"
+  },
+  {
+    "cod": 40,
+    "name": "Introducción al Procesamiento Digital de Imágenes",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      15
+    ],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "90 horas acreditables"
+  },
+  {
+    "cod": 41,
+    "name": "Inteligencia Artificial",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      22
+    ],
+    "classroomUrl": "",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "15:00",
+        "endTime": "18:00",
+        "classroom": "Aula 30",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "90 horas acreditables"
+  },
+  {
+    "cod": 42,
+    "name": "Recuperación Avanzada de la Información",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      20
+    ],
+    "classroomUrl": "",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Salón 7",
+        "group": "TP1",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Salón 7",
+        "group": "TP2",
+        "classType": "TP",
+        "modality": "virtual"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "90 horas acreditables"
+  },
+  {
+    "cod": 43,
+    "name": "Desarrollo y Arquitecturas Avanzadas de Software",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      20
+    ],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "90 horas acreditables"
+  },
+  {
+    "cod": 44,
+    "name": "Modelado y Proceso de Negocios",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      19
+    ],
+    "classroomUrl": "",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "09:00",
+        "endTime": "11:00",
+        "classroom": "Aula 26",
+        "group": "TP1",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "09:00",
+        "endTime": "11:00",
+        "classroom": "Aula 27",
+        "group": "TP2",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "90 horas acreditables"
+  },
+  {
+    "cod": 45,
+    "name": "Taller de Formación Profesional",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      12
+    ],
+    "classroomUrl": "",
+    "schedules": [
+      {
+        "day": "Viernes",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "Aula 17",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "60 horas acreditables"
+  },
+  {
+    "cod": 46,
+    "name": "Taller de Metodología de la Investigación Científica",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      12
+    ],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "60 horas acreditables"
+  },
+  {
+    "cod": 47,
+    "name": "Gestión Ambiental",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      12
+    ],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "60 horas acreditables"
+  },
+  {
+    "cod": "PPS",
+    "name": "Práctica Profesional Supervisada",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      "R3"
+    ],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": "TF",
+    "name": "Trabajo Final",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      "Reglamento de Trabajos Finales de la Facultad"
+    ],
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": "R1",
+    "name": "Suficiencia de Inglés",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "description": "Haber aprobado al menos una materia de la carrera",
+    "classroomUrl": "",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Aula 31",
+        "group": "C1",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Aula 27",
+        "group": "C2",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "requirement"
+  },
+  {
+    "cod": "R2",
+    "name": "Aptitud de Inglés",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "description": "Requiere haber aprobado R1",
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "requirement"
+  },
+  {
+    "cod": "R3",
+    "name": "Requisito de Regularización",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "description": "Tener hasta cuarto año las materias regularizadas",
+    "classroomUrl": "",
+    "schedules": [],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "requirement"
+  }
+]

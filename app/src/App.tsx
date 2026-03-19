@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Carreras from './pages/Carreras'
-import IngenieriaInformatica from './features/carreras/pages/IngenieriaInformatica'
+import IngenieriaInformatica from './features/careers/pages/IngenieriaInformatica'
 
 function App() {
   return (
