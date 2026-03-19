@@ -18,9 +18,8 @@ export default function Carreras() {
   const navigate = useNavigate()
 
   return (
-    <main
-      className="min-h-screen flex flex-col items-center justify-center px-6 relative overflow-hidden"
-      style={{ backgroundColor: 'var(--color-bg)', color: 'var(--color-text)' }}
+    <div
+      className="flex-1 w-full flex flex-col items-center justify-center px-6 relative overflow-hidden"
     >
       <div
         className="absolute top-[-80px] right-[-80px] w-[400px] h-[400px] rounded-full blur-[100px] opacity-10 pointer-events-none"
@@ -90,6 +89,6 @@ export default function Carreras() {
           ))}
         </div>
       </div>
-    </main>
+    </div>
   )
 }

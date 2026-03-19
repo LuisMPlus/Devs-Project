@@ -4,9 +4,8 @@ export default function Home() {
   const navigate = useNavigate()
 
   return (
-    <main
-      className="min-h-screen flex flex-col items-center justify-center px-6 relative overflow-hidden"
-      style={{ backgroundColor: 'var(--color-bg)', color: 'var(--color-text)' }}
+    <div
+      className="flex-1 w-full flex flex-col items-center justify-center px-6 py-24 relative overflow-hidden"
     >
       {/* Background glow top */}
       <div
@@ -28,7 +27,7 @@ export default function Home() {
           color: 'var(--color-secondary)',
         }}
       >
-        Semiagrupación · Devs Project
+        Comunidad · Devs Project
       </span>
 
       {/* Heading */}
@@ -96,13 +95,6 @@ export default function Home() {
         </svg>
       </button>
 
-      {/* Footer */}
-      <p
-        className="absolute bottom-8 text-sm"
-        style={{ color: 'color-mix(in srgb, var(--color-text) 27%, transparent)' }}
-      >
-        Devs Project © {new Date().getFullYear()}
-      </p>
-    </main>
+    </div>
   )
 }
