@@ -1,0 +1,99 @@
+[
+{"cod":1,"name":"Álgebra Lineal","year":1,"semester":1,"prerequisites":[],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=3224","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":2,"name":"Lógica Computacional","year":1,"semester":1,"prerequisites":[],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=137","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":3,"name":"Programación I","year":1,"semester":1,"prerequisites":[],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=2949","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":4,"name":"Introducción a la Licenciatura en Sistemas","year":1,"semester":1,"prerequisites":[],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":5,"name":"Estructura de Datos","year":1,"semester":2,"prerequisites":[3],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2496","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":6,"name":"Organización de Computadoras","year":1,"semester":2,"prerequisites":[],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=3082","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":7,"name":"Programación II","year":1,"semester":2,"prerequisites":[3],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":8,"name":"Análisis Matemático","year":2,"semester":1,"prerequisites":[],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":9,"name":"Sistemas Operativos I","year":2,"semester":1,"prerequisites":[5,6,7],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2511","schedules":[
+{"day":"Martes","startTime":"17:00","endTime":"21:00","classroom":"Aula 17","group":"TP","classType":"TP","modality":"virtual"},
+{"day":"Viernes","startTime":"16:30","endTime":"18:30","classroom":"Aula 12","group":"T","classType":"T","modality":"virtual"}
+],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":10,"name":"Programación III","year":2,"semester":1,"prerequisites":[5,7],"classroomUrl":"","schedules":[
+{"day":"Jueves","startTime":"10:00","endTime":"13:00","classroom":"Sala 2","group":"TP1","classType":"TP","modality":"presencial"},
+{"day":"Viernes","startTime":"08:00","endTime":"10:00","classroom":"Sala 2","group":"TP2","classType":"TP","modality":"virtual"}
+],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":11,"name":"Redes y Comunicaciones","year":2,"semester":1,"prerequisites":[6],"classroomUrl":"","schedules":[
+{"day":"Lunes","startTime":"08:00","endTime":"11:00","classroom":"Aula 18","group":"TP1","classType":"TP","modality":"presencial"},
+{"day":"Miércoles","startTime":"08:00","endTime":"11:00","classroom":"Aula 17","group":"TP2","classType":"TP","modality":"presencial"}
+],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":12,"name":"Probabilidades y Estadística","year":2,"semester":2,"prerequisites":[1,8],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=3094","schedules":[
+{"day":"Viernes","startTime":"10:00","endTime":"12:00","classroom":"Aula 15","group":"T","classType":"T","modality":"presencial"},
+{"day":"Martes","startTime":"17:00","endTime":"19:00","classroom":"Aula 24","group":"C1","classType":"P","modality":"presencial"},
+{"day":"Jueves","startTime":"17:00","endTime":"19:00","classroom":"Aula 31","group":"C2","classType":"P","modality":"presencial"}
+],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":13,"name":"Sistemas Operativos II","year":2,"semester":2,"prerequisites":[9],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2504","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":14,"name":"Bases de Datos","year":2,"semester":2,"prerequisites":[5,7],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=54","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":15,"name":"Teoría de Autómatas, Lenguajes y Computación","year":2,"semester":2,"prerequisites":[2,5],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2506","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":16,"name":"Seminario de Lenguajes I","year":2,"semester":2,"prerequisites":[4,10],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":17,"name":"Organización Empresarial y Modelos de Negocios","year":3,"semester":1,"prerequisites":[4,10],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=2942","schedules":[
+{"day":"Lunes","startTime":"17:00","endTime":"19:00","classroom":"Aula 14","group":"TP1","classType":"TP","modality":"virtual"},
+{"day":"Jueves","startTime":"15:00","endTime":"17:00","classroom":"Aula 28","group":"TP2","classType":"TP","modality":"presencial"}
+],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":18,"name":"Matemática Discreta","year":3,"semester":1,"prerequisites":[1,8],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=464","schedules":[
+{"day":"Martes","startTime":"14:00","endTime":"15:30","classroom":"","group":"T","classType":"T","modality":"virtual"},
+{"day":"Jueves","startTime":"11:00","endTime":"12:30","classroom":"","group":"T","classType":"T","modality":"virtual"},
+{"day":"Miércoles","startTime":"10:30","endTime":"13:00","classroom":"Aula 18","group":"P1","classType":"P","modality":"presencial"},
+{"day":"Miércoles","startTime":"13:30","endTime":"16:00","classroom":"Aula 18","group":"P2","classType":"P","modality":"presencial"}
+],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":19,"name":"Aplicaciones de Bases de Datos I","year":3,"semester":1,"prerequisites":[14],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":20,"name":"Sistemas de Información I","year":3,"semester":1,"prerequisites":[14,16],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":21,"name":"Modelo de Desarrollo de Programas","year":3,"semester":1,"prerequisites":[10,14],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":22,"name":"Cálculo Numérico","year":3,"semester":2,"prerequisites":[12,"R1"],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":23,"name":"Aplicaciones de Bases de Datos II","year":3,"semester":2,"prerequisites":[12,19,"R1"],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":24,"name":"Programación Concurrente","year":3,"semester":2,"prerequisites":[9,10,14,"R1"],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":25,"name":"Seguridad y Auditoría Informática","year":3,"semester":2,"prerequisites":[11,14,20,"R1"],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":26,"name":"Sistemas de Información II","year":3,"semester":2,"prerequisites":[20,"R1"],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":27,"name":"Formulación y Evaluación de Proyectos Informáticos","year":4,"semester":1,"prerequisites":[17,20],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=3045","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":28,"name":"Sistemas de Información III","year":4,"semester":1,"prerequisites":[21,26],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":29,"name":"Fundamentos de Inteligencia Artificial","year":4,"semester":1,"prerequisites":[15,18,22],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":30,"name":"Seminario de Lenguajes II","year":4,"semester":1,"prerequisites":[16,23,24,26],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":31,"name":"Modelado de Procesos de Negocio","year":4,"semester":1,"prerequisites":[17,20,"R2"],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":32,"name":"Sistemas de Información IV","year":4,"semester":2,"prerequisites":[25,27,28,30,"R2"],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=47","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":33,"name":"Arquitectura de Computadoras Paralelas","year":4,"semester":2,"prerequisites":[11,13,24,"R2"],"classroomUrl":"https://virtual.unju.edu.ar/course/info.php?id=21","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod":34,"name":"Legislación, Ética y Ejercicio Profesional","year":5,"semester":1,"prerequisites":[27],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2505","schedules":[
+{"day":"Martes","startTime":"16:00","endTime":"18:00","classroom":"Aula 30","group":"TP1","classType":"TP","modality":"presencial"},
+{"day":"Jueves","startTime":"17:00","endTime":"19:00","classroom":"Aula 30","group":"TP2","classType":"TP","modality":"presencial"}
+],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+
+{"cod": 35, "name": "Práctica Profesional con Trabajo Final", "year": 5, "semester": null, "prerequisites": ["R3"], "classroomUrl": "", "schedules": [], "isOfferedBothSemesters": false, "groupLink": null, "drive": "", "type": "mandatory", "description": ""},
+
+{"cod":"R1","name":"Nivel de Suficiencia de Inglés","year":null,"semester":1,"prerequisites":[],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":true,"groupLink":null,"drive":"","type":"requirement","description":"Aprobar al menos una materia de la carrera"},
+
+{"cod":"R2","name":"Nivel de Suficiencia de Inglés","year":null,"semester":2,"prerequisites":["R1"],"classroomUrl":"","schedules":[],"isOfferedBothSemesters":true,"groupLink":null,"drive":"","type":"requirement","description":"Requiere R1"}
+]

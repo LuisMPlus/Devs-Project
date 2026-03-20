@@ -19,56 +19,67 @@ interface CareerProgressContextType {
 
 const CareerProgressContext = createContext<CareerProgressContextType | null>(null)
 
-const KEYS = {
-  passed: 'devs-career-passed-subjects',
-  result: 'devs-career-calculator-result',
-  semester: 'devs-career-target-semester',
+/** Build storage keys scoped to a specific career slug. */
+function makeKeys(careerSlug: string) {
+  return {
+    passed:   `devs-career-${careerSlug}-passed-subjects`,
+    result:   `devs-career-${careerSlug}-calculator-result`,
+    semester: `devs-career-${careerSlug}-target-semester`,
+  }
 }
 
-function loadSet(): Set<number | string> {
+function loadSet(keys: ReturnType<typeof makeKeys>): Set<number | string> {
   try {
-    const raw = sessionStorage.getItem(KEYS.passed)
+    const raw = sessionStorage.getItem(keys.passed)
     if (!raw) return new Set()
     return new Set(JSON.parse(raw) as (number | string)[])
   } catch { return new Set() }
 }
 
-function loadResult(): CalculatorResult | null {
+function loadResult(keys: ReturnType<typeof makeKeys>): CalculatorResult | null {
   try {
-    const raw = sessionStorage.getItem(KEYS.result)
+    const raw = sessionStorage.getItem(keys.result)
     if (!raw) return null
     return JSON.parse(raw) as CalculatorResult
   } catch { return null }
 }
 
-function loadSemester(): 1 | 2 {
+function loadSemester(keys: ReturnType<typeof makeKeys>): 1 | 2 {
   try {
-    const raw = sessionStorage.getItem(KEYS.semester)
+    const raw = sessionStorage.getItem(keys.semester)
     if (!raw) return getCurrentSemester()
     return JSON.parse(raw) as 1 | 2
   } catch { return getCurrentSemester() }
 }
 
-export function CareerProgressProvider({ children }: { children: ReactNode }) {
-  const [passedIds, setPassedIds] = useState<Set<number | string>>(loadSet)
-  const [calculatorResult, setCalculatorResultState] = useState<CalculatorResult | null>(loadResult)
-  const [targetSemester, setTargetSemesterState] = useState<1 | 2>(loadSemester)
+interface CareerProgressProviderProps {
+  children: ReactNode
+  /** Career slug used to namespace session storage keys (e.g. 'computer-engineering'). */
+  careerSlug: string
+}
+
+export function CareerProgressProvider({ children, careerSlug }: CareerProgressProviderProps) {
+  const keys = makeKeys(careerSlug)
+
+  const [passedIds, setPassedIds] = useState<Set<number | string>>(() => loadSet(keys))
+  const [calculatorResult, setCalculatorResultState] = useState<CalculatorResult | null>(() => loadResult(keys))
+  const [targetSemester, setTargetSemesterState] = useState<1 | 2>(() => loadSemester(keys))
 
   useEffect(() => {
-    sessionStorage.setItem(KEYS.passed, JSON.stringify(Array.from(passedIds)))
-  }, [passedIds])
+    sessionStorage.setItem(keys.passed, JSON.stringify(Array.from(passedIds)))
+  }, [passedIds, keys.passed])
 
   useEffect(() => {
     if (calculatorResult) {
-      sessionStorage.setItem(KEYS.result, JSON.stringify(calculatorResult))
+      sessionStorage.setItem(keys.result, JSON.stringify(calculatorResult))
     } else {
-      sessionStorage.removeItem(KEYS.result)
+      sessionStorage.removeItem(keys.result)
     }
-  }, [calculatorResult])
+  }, [calculatorResult, keys.result])
 
   useEffect(() => {
-    sessionStorage.setItem(KEYS.semester, JSON.stringify(targetSemester))
-  }, [targetSemester])
+    sessionStorage.setItem(keys.semester, JSON.stringify(targetSemester))
+  }, [targetSemester, keys.semester])
 
   function toggleSubject(cod: number | string) {
     setPassedIds(prev => {
@@ -77,7 +88,6 @@ export function CareerProgressProvider({ children }: { children: ReactNode }) {
       else next.add(cod)
       return next
     })
-    // invalidate results when selection changes
     setCalculatorResultState(null)
   }
 
@@ -130,3 +140,4 @@ export function useCareerProgress() {
   if (!ctx) throw new Error('useCareerProgress must be used within CareerProgressProvider')
   return ctx
 }
+

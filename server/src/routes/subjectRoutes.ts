@@ -1,8 +1,9 @@
 import { Router } from 'express'
-import { getComputerEngineeringSubjects } from '../controllers/subjectController'
+import { getSubjectsByCareer } from '../controllers/subjectController'
 
 const router = Router()
 
-router.get('/computer-engineering', getComputerEngineeringSubjects)
+// Generic route: GET /subjects/:careerSlug
+router.get('/:careerSlug', getSubjectsByCareer)
 
 export default router

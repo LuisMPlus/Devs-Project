@@ -12,6 +12,16 @@ const CARRERAS = [
       </svg>
     ),
   },
+  {
+    id: 'licenciatura-en-sistemas',
+    label: 'Licenciatura en Sistemas',
+    path: '/carreras/licenciatura-en-sistemas',
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h16.5a1.5 1.5 0 001.5-1.5V5.25a1.5 1.5 0 00-1.5-1.5H3.75a1.5 1.5 0 00-1.5 1.5v12a1.5 1.5 0 001.5 1.5z" />
+      </svg>
+    ),
+  },
 ]
 
 export default function Carreras() {

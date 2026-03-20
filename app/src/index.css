@@ -1,9 +1,33 @@
 @import "tailwindcss";
 
-:root {
+@theme {
   --color-bg:        #0c154c;
   --color-primary:   #02ffff;
   --color-secondary: #42d7c7;
   --color-accent:    #1d4ed8;
   --color-text:      #eff6ff;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+/* Base styles */
+@layer base {
+  :root {
+    --color-bg:        #0c154c;
+    --color-primary:   #02ffff;
+    --color-secondary: #42d7c7;
+    --color-accent:    #1d4ed8;
+    --color-text:      #eff6ff;
+    --font-main:       'Montserrat', sans-serif;
+  }
+
+  * {
+    font-family: var(--font-main);
+  }
+
+  body {
+    @apply bg-[--color-bg] text-[--color-text];
+    font-family: var(--font-main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
