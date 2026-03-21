@@ -59,19 +59,19 @@ export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject
   const isTablet = winW >= 768 && winW < 1024
   const isWide = winW >= 1440
 
-  // Layout responsivo para ajustar tamaños de contenedor a múltiples vistas
-  const NODE_W = isXs ? 135 : isMobile ? 160 : isTablet ? 170 : isWide ? 200 : 180
-  const NODE_H = isXs ? 64 : isMobile ? 68 : isTablet ? 70 : isWide ? 84 : 76
+  // Layout responsivo para ajustar tamaños de contenedor a múltiples vistas (Tamaños reducidos)
+  const NODE_W = isXs ? 120 : isMobile ? 140 : isTablet ? 150 : isWide ? 170 : 160
+  const NODE_H = isXs ? 54 : isMobile ? 58 : isTablet ? 60 : isWide ? 68 : 64
   const PADDING = isMobile ? 16 : isTablet ? 24 : 40
-  const COL_GAP = isXs ? 10 : isMobile ? 16 : isTablet ? 30 : isWide ? 50 : 40
-  const ROW_GAP = isMobile ? 16 : isTablet ? 20 : isWide ? 30 : 24
+  const COL_GAP = isXs ? 10 : isMobile ? 12 : isTablet ? 24 : isWide ? 40 : 30
+  const ROW_GAP = isMobile ? 12 : isTablet ? 16 : isWide ? 24 : 20
   const SEMESTER_GAP = isMobile ? 40 : 0
 
   // Fuentes dinámicas
-  const FONT_MAIN = isXs ? 9 : isMobile ? 10 : isTablet ? 12 : isWide ? 14 : 13
-  const FONT_NUM = isMobile ? 9 : isTablet ? 10 : isWide ? 12 : 11
-  const FONT_CORR = isMobile ? 8 : isTablet ? 9 : isWide ? 10 : 9
-  const FONT_HEADER = isMobile ? 12 : isTablet ? 14 : isWide ? 16 : 14
+  const FONT_MAIN = isXs ? 8 : isMobile ? 9 : isTablet ? 11 : isWide ? 12 : 11
+  const FONT_NUM = isMobile ? 8 : isTablet ? 9 : isWide ? 10 : 9
+  const FONT_CORR = isMobile ? 7 : isTablet ? 8 : isWide ? 9 : 8
+  const FONT_HEADER = isMobile ? 11 : isTablet ? 13 : isWide ? 15 : 13
 
   const regularSubjects = useMemo(() => subjects.filter(s => {
     const t = getSubjectType(s)
@@ -126,15 +126,27 @@ export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject
   const svgWidth = Object.keys(positions).length > 0 ? maxX + NODE_W + PADDING : 0
   const svgHeight = Object.keys(positions).length > 0 ? maxY + NODE_H + PADDING : 0
 
-  // Correlativas to highlight on hover (solo directas)
+  const getEffectivePrerequisites = (mat: Subject): (number | string)[] => {
+    let prereqs = [...mat.prerequisites]
+    if (mat.suspendedPrerequisites) {
+      prereqs = prereqs.filter(p => !mat.suspendedPrerequisites!.includes(p as never))
+    }
+    if (mat.addedPrerequisites) {
+      for (const p of mat.addedPrerequisites) {
+        if (!prereqs.includes(p as never)) prereqs.push(p)
+      }
+    }
+    return prereqs
+  }
+
+  // Correlativas to highlight on hover (las que abre la materia)
   const highlightedIds = useMemo(() => {
     if (!hovered) return new Set<number | string>()
     const ids = new Set<number | string>([hovered])
     
-    const mat = subjects.find(m => m.cod === hovered)
-    if (mat) {
-      for (const cId of mat.prerequisites) {
-        ids.add(cId)
+    for (const mat of subjects) {
+      if (getEffectivePrerequisites(mat).some(p => String(p) === String(hovered))) {
+        ids.add(mat.cod)
       }
     }
     
@@ -219,7 +231,7 @@ export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject
         >
           {/* Flechas de correlatividad */}
           {subjects.map(subject =>
-            subject.prerequisites.map(corrCod => {
+            getEffectivePrerequisites(subject).map(corrCod => {
               const from = positions[corrCod]
               const to = positions[subject.cod]
               if (!from || !to) return null

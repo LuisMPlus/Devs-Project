@@ -22,4 +22,6 @@ export interface Subject {
   isSelective: boolean
   type: "mandatory" | "optional" | "requirement"
   description: string | null
+  suspendedPrerequisites?: (number | string)[]
+  addedPrerequisites?: (number | string)[]
 }

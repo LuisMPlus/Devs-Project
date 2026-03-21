@@ -37,24 +37,56 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
   const color = subject ? YEAR_COLORS[getSubjectType(subject)] || '#02ffff' : '#02ffff'
   const subjectNum: number | string = subject ? subject.cod : 0
 
-  const prerequisitesData = subject
-    ? subject.prerequisites.map(cCod => {
-        const mat = subjects.find(m => m.cod === cCod)
-        return { num: cCod, name: mat ? mat.name : '?' }
-      })
-    : []
+  const prerequisitesData = useMemo(() => {
+    if (!subject) return []
+    const data: { num: number | string, name: string, isSuspended?: boolean, isAdded?: boolean }[] = []
+    
+    // Original prereqs
+    for (const cCod of subject.prerequisites) {
+      const isSuspended = subject.suspendedPrerequisites?.includes(cCod as never) || false
+      const mat = subjects.find(m => m.cod === cCod)
+      data.push({ num: cCod, name: mat ? mat.name : '?', isSuspended })
+    }
+
+    // Added prereqs
+    if (subject.addedPrerequisites) {
+      for (const cCod of subject.addedPrerequisites) {
+        if (!data.some(d => d.num === cCod)) {
+          const mat = subjects.find(m => m.cod === cCod)
+          data.push({ num: cCod, name: mat ? mat.name : '?', isAdded: true })
+        }
+      }
+    }
+    
+    return data
+  }, [subject, subjects])
+
+  const getEffectivePrerequisites = (mat: Subject): (number | string)[] => {
+    let prereqs = [...mat.prerequisites]
+    if (mat.suspendedPrerequisites) {
+      prereqs = prereqs.filter(p => !mat.suspendedPrerequisites!.includes(p as never))
+    }
+    if (mat.addedPrerequisites) {
+      for (const p of mat.addedPrerequisites) {
+        if (!prereqs.includes(p as never)) prereqs.push(p)
+      }
+    }
+    return prereqs
+  }
 
   const indirectPrerequisitesData = useMemo(() => {
     if (!subject) return []
     const indirect = new Set<number | string>()
-    const queue = [...subject.prerequisites]
+    const queue = getEffectivePrerequisites(subject)
+    const subjectEffective = getEffectivePrerequisites(subject)
     
     while (queue.length > 0) {
       const current = queue.shift()!
       const mat = subjects.find(m => m.cod === current)
       if (mat) {
-        for (const c of mat.prerequisites) {
-          if (!subject.prerequisites.includes(c) && !indirect.has(c)) {
+        const effective = getEffectivePrerequisites(mat)
+        for (const c of effective) {
+          if (!subjectEffective.includes(c) && !indirect.has(c)) {
             indirect.add(c)
             queue.push(c)
           }
@@ -64,8 +96,15 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
     
     return Array.from(indirect).map(cCod => {
       const mat = subjects.find(m => m.cod === cCod)
-      return { num: cCod, name: mat ? mat.name : '?' } as { num: number | string, name: string }
+      return { num: cCod, name: mat ? mat.name : '?' }
     })
+  }, [subject, subjects])
+
+  const opensData = useMemo(() => {
+    if (!subject) return []
+    return subjects
+      .filter(m => getEffectivePrerequisites(m).includes(subject.cod))
+      .map(m => ({ num: m.cod, name: m.name }))
   }, [subject, subjects])
 
   return (
@@ -335,6 +374,22 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
 
               {(prerequisitesData.length > 0 || indirectPrerequisitesData.length > 0) && (
                 <section>
+                  {((subject.suspendedPrerequisites && subject.suspendedPrerequisites.length > 0) || (subject.addedPrerequisites && subject.addedPrerequisites.length > 0)) && (
+                    <div className="mb-5 p-3.5 rounded-xl border flex gap-3 items-start" style={{
+                      borderColor: 'color-mix(in srgb, #f59e0b 25%, transparent)',
+                      backgroundColor: 'color-mix(in srgb, #f59e0b 8%, transparent)',
+                      color: 'color-mix(in srgb, var(--color-text) 85%, transparent)'
+                    }}>
+                      <svg className="w-5 h-5 mt-0.5 shrink-0 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <p className="text-[13px] leading-relaxed">
+                        <strong className="block mb-0.5 text-amber-500 font-semibold tracking-wide">Régimen de Excepción</strong>
+                        Esta modificación en las correlatividades se debe al régimen de excepción de correlatividades por el cambio al plan 2022.
+                      </p>
+                    </div>
+                  )}
+
                   {prerequisitesData.length > 0 && (
                     <>
                       <h3 className="text-xs font-semibold uppercase tracking-widest mb-3"
@@ -342,18 +397,25 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
                         Correlativas
                       </h3>
                       <div className="flex flex-col gap-1.5 mb-6">
-                        {prerequisitesData.map(({ num, name }) => (
+                        {prerequisitesData.map(({ num, name, isSuspended, isAdded }) => (
                           <div
-                            key={name}
-                            className="flex items-center gap-2 text-sm px-3 py-2 rounded-lg"
+                            key={String(num) + name}
+                            className={`flex items-center gap-2 text-sm px-3 py-2 rounded-lg ${isSuspended ? 'opacity-60' : ''}`}
                             style={{
                               backgroundColor: 'color-mix(in srgb, var(--color-text) 4%, transparent)',
                               color: 'color-mix(in srgb, var(--color-text) 75%, transparent)',
                             }}
                           >
                             <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: color }} />
-                            <span className="font-mono text-xs opacity-60">#{num}</span>
-                            {name}
+                            <span className={`font-mono text-xs opacity-60 ${isSuspended ? 'line-through' : ''}`}>#{num}</span>
+                            <span className={isSuspended ? 'line-through text-red-300' : isAdded ? 'text-blue-300 font-medium' : ''}>{name}</span>
+                            
+                            {isSuspended && (
+                              <span className="ml-auto px-1.5 py-0.5 rounded text-[10px] uppercase font-bold tracking-wider" style={{ backgroundColor: 'color-mix(in srgb, #ef4444 15%, transparent)', color: '#f87171' }}>Suspendida</span>
+                            )}
+                            {isAdded && (
+                              <span className="ml-auto px-1.5 py-0.5 rounded text-[10px] uppercase font-bold tracking-wider" style={{ backgroundColor: 'color-mix(in srgb, #3b82f6 15%, transparent)', color: '#60a5fa' }}>Agregada</span>
+                            )}
                           </div>
                         ))}
                       </div>
@@ -395,6 +457,32 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
                   <p className="text-sm" style={{ color: 'color-mix(in srgb, var(--color-text) 45%, transparent)' }}>
                     Sin correlativas previas
                   </p>
+                </section>
+              )}
+
+              {opensData.length > 0 && (
+                <section className="mt-2">
+                  <h3 className="text-xs font-semibold uppercase tracking-widest mb-3"
+                    style={{ color: 'color-mix(in srgb, var(--color-text) 45%, transparent)' }}>
+                    Al aprobar abre:
+                  </h3>
+                  <div className="flex flex-col gap-1.5">
+                    {opensData.map(({ num, name }) => (
+                      <div
+                        key={String(num)}
+                        className="flex items-center gap-2 text-sm px-3 py-2 rounded-lg"
+                        style={{
+                          backgroundColor: 'color-mix(in srgb, var(--color-text) 2%, transparent)',
+                          color: 'color-mix(in srgb, var(--color-text) 85%, transparent)',
+                          borderColor: `color-mix(in srgb, ${color} 15%, transparent)`,
+                          borderWidth: '1px'
+                        }}
+                      >
+                        <span className="font-mono text-xs font-bold" style={{ color }}>#{num}</span>
+                        <span className="truncate">{name}</span>
+                      </div>
+                    ))}
+                  </div>
                 </section>
               )}
             </div>

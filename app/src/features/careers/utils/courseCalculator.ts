@@ -32,8 +32,18 @@ export function calculateAvailableSubjects(
       return false
     }
 
-    // 2. Check direct prerequisites
-    const hasAllPrerequisites = subject.prerequisites.every(prereq =>
+    // 2. Check direct prerequisites (effective)
+    let effectivePrereqs = [...subject.prerequisites]
+    if (subject.suspendedPrerequisites) {
+      effectivePrereqs = effectivePrereqs.filter(p => !subject.suspendedPrerequisites!.includes(p as never))
+    }
+    if (subject.addedPrerequisites) {
+      for (const p of subject.addedPrerequisites) {
+        if (!effectivePrereqs.includes(p as never)) effectivePrereqs.push(p)
+      }
+    }
+
+    const hasAllPrerequisites = effectivePrereqs.every(prereq =>
       passedSubjectCodes.has(prereq)
     )
 

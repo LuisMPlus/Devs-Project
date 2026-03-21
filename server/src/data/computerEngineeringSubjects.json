@@ -7,7 +7,7 @@
     "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/course/info.php?id=78",
     "schedules": [],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/F8irjR8jiYQ1wNEOGh2suX?mode=gi_t",
     "drive": "",
     "type": "mandatory",
@@ -21,7 +21,7 @@
     "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3224",
     "schedules": [],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/CzyprNtYHSc9gn8my681NT",
     "drive": "",
     "type": "mandatory",
@@ -35,7 +35,7 @@
     "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2949",
     "schedules": [],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/ESldtbH90bdCHGDkShp93y",
     "drive": "",
     "type": "mandatory",
@@ -49,7 +49,7 @@
     "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=426",
     "schedules": [],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/GeZGAz1ZAmv3kW0Imsli7E",
     "drive": "",
     "type": "mandatory",
@@ -81,7 +81,7 @@
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3081",
     "schedules": [],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/IYmCPonUr0z4LnGyOUqx4k?mode=ac_t",
     "drive": "",
     "type": "mandatory",
@@ -98,7 +98,7 @@
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3082",
     "schedules": [],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/CaGOSIf3tjG2LnBb6TZdYp?mode=gi_t",
     "drive": "",
     "type": "mandatory",
@@ -224,7 +224,10 @@
     "groupLink": "https://chat.whatsapp.com/Ke9FOhoRpf28Dv6KxMqbwB",
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      3
+    ]
   },
   {
     "cod": 11,
@@ -301,7 +304,7 @@
         "modality": "presencial"
       }
     ],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/FrIByEcOszu5ZVzIskVhLr",
     "drive": "",
     "type": "mandatory",
@@ -475,7 +478,7 @@
         "modality": "presencial"
       }
     ],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
@@ -514,7 +517,14 @@
     "groupLink": "https://chat.whatsapp.com/CmncO068J2YL2zhVZHJ8Mx",
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      15
+    ],
+    "addedPrerequisites": [
+      5,
+      8
+    ]
   },
   {
     "cod": 21,
@@ -613,7 +623,14 @@
     "groupLink": "https://chat.whatsapp.com/FFrheXnbFLs1LvIm8SBvgv",
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      19
+    ],
+    "addedPrerequisites": [
+      5,
+      8
+    ]
   },
   {
     "cod": 26,
@@ -683,7 +700,13 @@
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      23
+    ],
+    "addedPrerequisites": [
+      18
+    ]
   },
   {
     "cod": 28,
@@ -702,7 +725,11 @@
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      21,
+      "R1"
+    ]
   },
   {
     "cod": 29,
@@ -721,7 +748,15 @@
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      21,
+      23,
+      "R1"
+    ],
+    "addedPrerequisites": [
+      18
+    ]
   },
   {
     "cod": 30,
@@ -739,7 +774,11 @@
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      21,
+      "R1"
+    ]
   },
   {
     "cod": 31,
@@ -771,7 +810,11 @@
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      21,
+      "R1"
+    ]
   },
   {
     "cod": 33,
@@ -808,7 +851,11 @@
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      31,
+      "R2"
+    ]
   },
   {
     "cod": 34,
@@ -847,7 +894,11 @@
     "groupLink": "https://chat.whatsapp.com/FqYFSqyiTyiLejdtRRGdc3",
     "drive": "",
     "type": "mandatory",
-    "description": ""
+    "description": "",
+    "suspendedPrerequisites": [
+      31,
+      "R2"
+    ]
   },
   {
     "cod": 35,
@@ -879,11 +930,15 @@
         "modality": "presencial"
       }
     ],
-    "isOfferedBothSemesters": false,
+    "isOfferedBothSemesters": true,
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
-    "description": "Los profes arman el grupo"
+    "description": "Los profes arman el grupo",
+    "suspendedPrerequisites": [
+      31,
+      "R2"
+    ]
   },
   {
     "cod": 36,
@@ -1122,7 +1177,10 @@
     "groupLink": null,
     "drive": "",
     "type": "optional",
-    "description": "90 horas acreditables"
+    "description": "90 horas acreditables",
+    "suspendedPrerequisites": [
+      19
+    ]
   },
   {
     "cod": 45,
