@@ -15,6 +15,7 @@ interface CareerProgressContextType {
   setCalculatorResult: (result: CalculatorResult | null) => void
   targetSemester: 1 | 2
   setTargetSemester: (sem: 1 | 2) => void
+  setMultiple: (cods: (number | string)[], forceState?: boolean) => void
 }
 
 const CareerProgressContext = createContext<CareerProgressContextType | null>(null)
@@ -119,6 +120,22 @@ export function CareerProgressProvider({ children, careerSlug }: CareerProgressP
     setCalculatorResultState(null)
   }
 
+  function setMultiple(cods: (number | string)[], forceState?: boolean) {
+    setPassedIds(prev => {
+      const next = new Set(prev)
+      cods.forEach(cod => {
+        if (forceState === true) next.add(cod)
+        else if (forceState === false) next.delete(cod)
+        else {
+          if (next.has(cod)) next.delete(cod)
+          else next.add(cod)
+        }
+      })
+      return next
+    })
+    setCalculatorResultState(null)
+  }
+
   return (
     <CareerProgressContext.Provider value={{
       passedIds,
@@ -129,6 +146,7 @@ export function CareerProgressProvider({ children, careerSlug }: CareerProgressP
       setCalculatorResult,
       targetSemester,
       setTargetSemester,
+      setMultiple,
     }}>
       {children}
     </CareerProgressContext.Provider>

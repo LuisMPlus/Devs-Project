@@ -6,6 +6,7 @@ import { readJsonFile } from '../utils/jsonReader'
 const CAREER_FILE_MAP: Record<string, string> = {
   'computer-engineering':  'src/data/computerEngineeringSubjects.json',
   'bachelor-in-systems':   'src/data/bachelorInSystemsSubjects.json',
+  'apu':                   'src/data/APU-Subjects.json',
 }
 
 export const getSubjectsByCareer = async (req: Request, res: Response): Promise<void> => {

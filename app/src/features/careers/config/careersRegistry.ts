@@ -33,8 +33,20 @@ export const CAREERS: CareerConfig[] = [
       { color: '#f472b6', label: 'Año 5 — Rosa'      },
     ],
   },
+  {
+    slug: 'apu',
+    title: 'Analista Programador Universitario',
+    subtitle: '3 años · Cuatrimestral · Clic para ver detalles · Hover para correlatividades',
+    baseRoute: '/carreras/apu',
+    calculatorRoute: '/carreras/apu/calculadora',
+    yearColors: [
+      { color: '#02ffff', label: 'Año 1 — Cian'      },
+      { color: '#f59e0b', label: 'Año 2 — Ámbar'     },
+      { color: '#a78bfa', label: 'Año 3 — Violeta'   },
+    ],
+    groupBySemester: true,
+  },
 ]
-
 
 /** Lookup a career by its slug. Returns undefined if not found. */
 export function getCareerBySlug(slug: string): CareerConfig | undefined {

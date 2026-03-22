@@ -23,4 +23,7 @@ export interface CareerConfig {
 
   /** Year color legend displayed in the header. */
   yearColors: CareerYearColor[]
+
+  /** If true, the graph groups subjects into columns per semester instead of per year. */
+  groupBySemester?: boolean
 }

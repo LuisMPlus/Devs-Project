@@ -1279,7 +1279,7 @@
     "semester": null,
     "prerequisites": [],
     "description": "Haber aprobado al menos una materia de la carrera",
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2527",
     "schedules": [
       {
         "day": "Martes",
@@ -1314,7 +1314,7 @@
       "R1"
     ],
     "description": "Requiere haber aprobado R1",
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2508",
     "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
