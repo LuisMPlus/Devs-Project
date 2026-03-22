@@ -7,6 +7,7 @@ import Header from './shared/components/Header'
 import Footer from './shared/components/Footer'
 import { CareerProgressProvider } from './features/careers/context/CareerProgressContext'
 import { CAREERS } from './features/careers/config/careersRegistry'
+import { Analytics } from '@vercel/analytics/react'
 
 // Look up careers from the central registry
 const computerEngineering = CAREERS.find(c => c.slug === 'computer-engineering')!
@@ -77,6 +78,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <Analytics />
     </div>
   )
 }
