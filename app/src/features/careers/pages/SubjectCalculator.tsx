@@ -14,10 +14,11 @@ interface SubjectCalculatorProps {
 export default function SubjectCalculator({ career }: SubjectCalculatorProps) {
   const navigate = useNavigate()
   const {
-    passedIds, toggleSubject,
+    passedIds,
     toggleYear: contextToggleYear,
     targetSemester, setTargetSemester,
     calculatorResult, setCalculatorResult,
+    setMultiple,
   } = useCareerProgress()
 
   const [subjects, setSubjects] = useState<Subject[]>([])
@@ -46,6 +47,39 @@ export default function SubjectCalculator({ career }: SubjectCalculatorProps) {
   function toggleYear(yearLabel: string) {
     const group = groupedSubjects[yearLabel] ?? []
     contextToggleYear(group.map(sub => sub.cod))
+  }
+
+  const getEffectivePrerequisites = (mat: Subject): (number | string)[] => {
+    let prereqs = [...mat.prerequisites]
+    if (mat.suspendedPrerequisites) {
+      prereqs = prereqs.filter(p => !mat.suspendedPrerequisites!.includes(p as never))
+    }
+    if (mat.addedPrerequisites) {
+      for (const p of mat.addedPrerequisites) {
+        if (!prereqs.includes(p as never)) prereqs.push(p)
+      }
+    }
+    return prereqs
+  }
+
+  function handleToggleSubject(subject: Subject) {
+    const isSelected = passedIds.has(subject.cod)
+    
+    if (isSelected) {
+      setMultiple([subject.cod], false)
+    } else {
+      const toAdd = new Set<string | number>()
+      const traverse = (mat: Subject) => {
+        if (toAdd.has(mat.cod)) return
+        toAdd.add(mat.cod)
+        getEffectivePrerequisites(mat).forEach(p => {
+          const pMat = subjects.find(s => String(s.cod) === String(p))
+          if (pMat) traverse(pMat)
+        })
+      }
+      traverse(subject)
+      setMultiple(Array.from(toAdd), true)
+    }
   }
 
   function handleCalculate() {
@@ -162,7 +196,7 @@ export default function SubjectCalculator({ career }: SubjectCalculatorProps) {
                               <input
                                 type="checkbox"
                                 checked={isSelected}
-                                onChange={() => toggleSubject(sub.cod)}
+                                onChange={() => handleToggleSubject(sub)}
                                 className="w-4 h-4 mt-0.5 shrink-0 rounded text-(--color-primary) focus:ring-(--color-primary)"
                               />
                               <div className="flex flex-col gap-1 min-w-0">

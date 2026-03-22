@@ -45,7 +45,7 @@ const YEAR_COLORS: Record<number, { bg: string; border: string; text: string; he
   99: { hex: '#fbbf24', bg: 'color-mix(in srgb, #fbbf24 14%, var(--color-bg))', border: '#fbbf24', text: 'var(--color-text)' }, // Optativas: Amarillo Oro
 }
 
-export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject[], onSelect: (cod: number | string) => void }) {
+export default function SubjectGraph({ subjects, onSelect, groupBySemester = false }: { subjects: Subject[], onSelect: (cod: number | string) => void, groupBySemester?: boolean }) {
   const getSubjectType = (subject: Subject): number => {
     if (subject.type === 'requirement') return 0 // Requisitos
     if (subject.type === 'optional') return 99 // Optativas/Otros
@@ -84,11 +84,21 @@ export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject
   const positions = useMemo(() => {
     const map: Record<number | string, { x: number; y: number }> = {}
     for (const subject of regularSubjects) {
-      const colIndex = getSubjectType(subject) - 1
-      const subjectsInYear = regularSubjects.filter(
-        mat => getSubjectType(mat) === getSubjectType(subject)
-      )
-      const idx = subjectsInYear.findIndex(mat => mat.cod === subject.cod)
+      const subjSemester = subject.semester
+      const isSemestral = groupBySemester && subjSemester != null
+      // Determine logical column index
+      const colIndex = isSemestral
+        ? (Number(subject.year) - 1) * 2 + (subjSemester - 1)
+        : getSubjectType(subject) - 1
+
+      // Find subjects in the same group (year or semester)
+      const subjectsInGroup = regularSubjects.filter(mat => {
+        if (isSemestral) {
+          return Number(mat.year) === Number(subject.year) && mat.semester === subjSemester
+        }
+        return getSubjectType(mat) === getSubjectType(subject)
+      })
+      const idx = subjectsInGroup.findIndex(mat => mat.cod === subject.cod)
 
       if (isMobile) {
         // Mobile layout: temporal flow goes top-down
@@ -98,9 +108,14 @@ export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject
         
         let prevYearsHeight = 0
         for (let i = 0; i < colIndex; i++) {
-          const count = regularSubjects.filter(
-            mat => getSubjectType(mat) === i + 1
-          ).length
+          const count = regularSubjects.filter(mat => {
+            if (isSemestral) {
+              const cy = Math.floor(i / 2) + 1
+              const cs = (i % 2) + 1
+              return Number(mat.year) === cy && mat.semester === cs
+            }
+            return getSubjectType(mat) === i + 1
+          }).length
           const rows = Math.ceil(count / 2)
           prevYearsHeight += rows * (NODE_H + ROW_GAP) + SEMESTER_GAP
         }
@@ -139,14 +154,22 @@ export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject
     return prereqs
   }
 
-  // Correlativas to highlight on hover (las que abre la materia)
+  // Correlativas to highlight on hover (toda la rama que abre la materia)
   const highlightedIds = useMemo(() => {
     if (!hovered) return new Set<number | string>()
     const ids = new Set<number | string>([hovered])
     
-    for (const mat of subjects) {
-      if (getEffectivePrerequisites(mat).some(p => String(p) === String(hovered))) {
-        ids.add(mat.cod)
+    let added = true
+    while (added) {
+      added = false
+      for (const mat of subjects) {
+        if (!ids.has(mat.cod)) {
+          const prereqs = getEffectivePrerequisites(mat)
+          if (prereqs.some(p => ids.has(p) || ids.has(String(p)) || ids.has(Number(p)))) {
+            ids.add(mat.cod)
+            added = true
+          }
+        }
       }
     }
     
@@ -363,15 +386,36 @@ export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject
             )
           })}
           
-          {/* Headers de años */}
-          {[1, 2, 3, 4, 5].map(year => {
-            const colIndex = year - 1
+          {/* Headers de columnas */}
+          {(() => {
+            const maxYear = regularSubjects.length > 0 
+              ? Math.max(...regularSubjects.map(s => Number(s.year)))
+              : groupBySemester ? 3 : 5
+
+            const numCols = groupBySemester ? maxYear * 2 : maxYear
+            const columns = Array.from({ length: numCols }, (_, i) => {
+              if (groupBySemester) {
+                const y = Math.floor(i / 2) + 1
+                const c = (i % 2) + 1
+                return { label: `AÑO ${y} - C${c}`, colIndex: i, year: y }
+              }
+              return { label: `AÑO ${i + 1}`, colIndex: i, year: i + 1 }
+            })
+
+            return columns.map(({ label, colIndex, year }) => {
             let hx, hy;
 
             if (isMobile) {
               let prevYearsHeight = 0
               for (let i = 0; i < colIndex; i++) {
-                const count = regularSubjects.filter(mat => getSubjectType(mat) === i + 1).length
+                const count = regularSubjects.filter(mat => {
+                  if (groupBySemester) {
+                    const cy = Math.floor(i / 2) + 1
+                    const cs = (i % 2) + 1
+                    return Number(mat.year) === cy && mat.semester === cs
+                  }
+                  return getSubjectType(mat) === i + 1
+                }).length
                 const rows = Math.ceil(count / 2)
                 prevYearsHeight += rows * (NODE_H + ROW_GAP) + SEMESTER_GAP
               }
@@ -385,20 +429,20 @@ export default function SubjectGraph({ subjects, onSelect }: { subjects: Subject
 
             return (
               <text
-                key={`header-${year}`}
+                key={`header-${colIndex}`}
                 x={hx}
                 y={hy}
                 textAnchor="middle"
                 fontSize={FONT_HEADER}
                 fontWeight={700}
-                fill={YEAR_COLORS[year]?.hex}
+                fill={YEAR_COLORS[year]?.hex || YEAR_COLORS[3].hex}
                 opacity={0.8}
                 style={{ userSelect: 'none' }}
               >
-                AÑO {year}
+                {label}
               </text>
             )
-          })}
+          })})()}
         </svg>
       </div>
 

@@ -11,6 +11,7 @@ import { CAREERS } from './features/careers/config/careersRegistry'
 // Look up careers from the central registry
 const computerEngineering = CAREERS.find(c => c.slug === 'computer-engineering')!
 const bachelorInSystems   = CAREERS.find(c => c.slug === 'bachelor-in-systems')!
+const apu                 = CAREERS.find(c => c.slug === 'apu')!
 
 function App() {
   return (
@@ -53,6 +54,23 @@ function App() {
             element={
               <CareerProgressProvider careerSlug={bachelorInSystems.slug}>
                 <SubjectCalculator career={bachelorInSystems} />
+              </CareerProgressProvider>
+            }
+          />
+          {/* ── Analista Programador Universitario ── */}
+          <Route
+            path="/carreras/apu"
+            element={
+              <CareerProgressProvider careerSlug={apu.slug}>
+                <CareerPage career={apu} />
+              </CareerProgressProvider>
+            }
+          />
+          <Route
+            path="/carreras/apu/calculadora"
+            element={
+              <CareerProgressProvider careerSlug={apu.slug}>
+                <SubjectCalculator career={apu} />
               </CareerProgressProvider>
             }
           />
