@@ -53,6 +53,8 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
   }
 
   const [hovered, setHovered] = useState<number | string | null>(null)
+  const [highlightMode, setHighlightMode] = useState<'forward' | 'backward'>('backward')
+  const [highlightDepth, setHighlightDepth] = useState<'all' | 'direct'>('direct')
   const { width: winW } = useWindowSize()
   const isXs = winW > 0 && winW < 400
   const isMobile = winW > 0 && winW < 768
@@ -154,33 +156,69 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
     return prereqs
   }
 
-  // Correlativas to highlight on hover (toda la rama que abre la materia)
+  // Correlativas to highlight on hover
   const highlightedIds = useMemo(() => {
-    if (!hovered) return new Set<number | string>()
+    if (!hovered || isMobile) return new Set<number | string>()
     const ids = new Set<number | string>([hovered])
     
-    let added = true
-    while (added) {
-      added = false
-      for (const mat of subjects) {
-        if (!ids.has(mat.cod)) {
-          const prereqs = getEffectivePrerequisites(mat)
-          if (prereqs.some(p => ids.has(p) || ids.has(String(p)) || ids.has(Number(p)))) {
-            ids.add(mat.cod)
-            added = true
+    if (highlightMode === 'forward') {
+      if (highlightDepth === 'all') {
+        let added = true
+        while (added) {
+          added = false
+          for (const mat of subjects) {
+            if (!ids.has(mat.cod)) {
+              const prereqs = getEffectivePrerequisites(mat)
+              if (prereqs.some(p => ids.has(p) || ids.has(String(p)) || ids.has(Number(p)))) {
+                ids.add(mat.cod)
+                added = true
+              }
+            }
           }
+        }
+      } else {
+        // direct forward: only immediate children
+        for (const mat of subjects) {
+          const prereqs = getEffectivePrerequisites(mat)
+          if (prereqs.some(p => String(p) === String(hovered))) {
+            ids.add(mat.cod)
+          }
+        }
+      }
+    } else {
+      if (highlightDepth === 'all') {
+        const queue = [hovered]
+        while (queue.length > 0) {
+          const current = queue.shift()!
+          const mat = subjects.find(m => String(m.cod) === String(current))
+          if (mat) {
+            const prereqs = getEffectivePrerequisites(mat)
+            for (const p of prereqs) {
+              if (!ids.has(p) && !ids.has(String(p)) && !ids.has(Number(p))) {
+                ids.add(p)
+                queue.push(p)
+              }
+            }
+          }
+        }
+      } else {
+        // direct backward: only immediate prerequisites
+        const mat = subjects.find(m => String(m.cod) === String(hovered))
+        if (mat) {
+          const prereqs = getEffectivePrerequisites(mat)
+          prereqs.forEach(p => ids.add(p))
         }
       }
     }
     
     return ids
-  }, [hovered, subjects])
+  }, [hovered, subjects, highlightMode, highlightDepth])
 
   const renderExtraNode = (subject: Subject, yearType: number) => {
     const num = subject.cod
     const colors = YEAR_COLORS[yearType] || YEAR_COLORS[99]
-    const isActive = hovered === null || highlightedIds.has(subject.cod)
-    const isHovered = hovered === subject.cod
+    const isActive = isMobile || hovered === null || highlightedIds.has(subject.cod)
+    const isHovered = !isMobile && hovered === subject.cod
 
     return (
       <div
@@ -237,6 +275,80 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
 
   return (
     <div className="w-full flex flex-col gap-10">
+      <div className="hidden md:flex flex-row flex-wrap justify-center items-center gap-4 -mb-2 mt-4 px-4 relative z-10 w-full">
+        
+        {/* Mode Toggle */}
+        <div className="flex flex-col items-center gap-1.5">
+          <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider" style={{ color: 'color-mix(in srgb, var(--color-text) 50%, transparent)' }}>
+            Dirección de Enlaces
+          </span>
+          <div
+            className="flex items-center gap-1 sm:gap-2 p-1.5 rounded-xl border whitespace-nowrap min-w-max"
+            style={{
+              borderColor: 'color-mix(in srgb, var(--color-primary) 20%, transparent)',
+              backgroundColor: 'color-mix(in srgb, var(--color-bg) 50%, var(--color-primary) 5%)'
+            }}
+          >
+          <button
+            onClick={() => setHighlightMode('backward')}
+            className="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-widest transition-all duration-200"
+            style={{
+               backgroundColor: highlightMode === 'backward' ? 'var(--color-primary)' : 'transparent',
+               color: highlightMode === 'backward' ? 'var(--color-bg)' : 'color-mix(in srgb, var(--color-text) 60%, transparent)'
+            }}
+          >
+            Atrás (Correlativas)
+          </button>
+          <button
+            onClick={() => setHighlightMode('forward')}
+            className="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-widest transition-all duration-200"
+            style={{
+              backgroundColor: highlightMode === 'forward' ? 'var(--color-primary)' : 'transparent',
+              color: highlightMode === 'forward' ? 'var(--color-bg)' : 'color-mix(in srgb, var(--color-text) 60%, transparent)',
+            }}
+          >
+            Adelante (Puede Abrir)
+          </button>
+          </div>
+        </div>
+
+        {/* Depth Toggle */}
+        <div className="flex flex-col items-center gap-1.5">
+          <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider" style={{ color: 'color-mix(in srgb, var(--color-text) 50%, transparent)' }}>
+            Profundidad
+          </span>
+          <div
+            className="flex items-center gap-1 sm:gap-2 p-1.5 rounded-xl border whitespace-nowrap min-w-max"
+            style={{
+              borderColor: 'color-mix(in srgb, var(--color-secondary) 20%, transparent)',
+              backgroundColor: 'color-mix(in srgb, var(--color-bg) 50%, var(--color-secondary) 5%)'
+            }}
+          >
+          <button
+            onClick={() => setHighlightDepth('direct')}
+            className="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-widest transition-all duration-200"
+            style={{
+               backgroundColor: highlightDepth === 'direct' ? 'var(--color-secondary)' : 'transparent',
+               color: highlightDepth === 'direct' ? '#111' : 'color-mix(in srgb, var(--color-text) 60%, transparent)'
+            }}
+          >
+            Solo directas
+          </button>
+          <button
+            onClick={() => setHighlightDepth('all')}
+            className="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-widest transition-all duration-200"
+            style={{
+              backgroundColor: highlightDepth === 'all' ? 'var(--color-secondary)' : 'transparent',
+              color: highlightDepth === 'all' ? '#111' : 'color-mix(in srgb, var(--color-text) 60%, transparent)',
+            }}
+          >
+            Toda la rama
+          </button>
+          </div>
+        </div>
+
+      </div>
+
       {/* Gráfico SVG Principal */}
       <div
         className="w-full overflow-x-auto"
@@ -253,7 +365,7 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
           }}
         >
           {/* Flechas de correlatividad */}
-          {subjects.map(subject =>
+          {!isMobile && subjects.map(subject =>
             getEffectivePrerequisites(subject).map(corrCod => {
               const from = positions[corrCod]
               const to = positions[subject.cod]
@@ -298,8 +410,8 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
             const num = subject.cod
             const { x, y } = positions[subject.cod]
             const colors = YEAR_COLORS[getSubjectType(subject)] || YEAR_COLORS[1]
-            const isActive = hovered === null || highlightedIds.has(subject.cod)
-            const isHovered = hovered === subject.cod
+            const isActive = isMobile || hovered === null || highlightedIds.has(subject.cod)
+            const isHovered = !isMobile && hovered === subject.cod
 
             return (
               <g

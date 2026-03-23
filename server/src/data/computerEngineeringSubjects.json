@@ -1152,7 +1152,7 @@
     "prerequisites": [
       19
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=1031",
     "schedules": [
       {
         "day": "Martes",
@@ -1232,7 +1232,7 @@
     "prerequisites": [
       12
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=493",
     "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,

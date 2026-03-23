@@ -464,7 +464,7 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
                 <section className="mt-2">
                   <h3 className="text-xs font-semibold uppercase tracking-widest mb-3"
                     style={{ color: 'color-mix(in srgb, var(--color-text) 45%, transparent)' }}>
-                    Al aprobar abre:
+                    Esta materia es correlativa de:
                   </h3>
                   <div className="flex flex-col gap-1.5">
                     {opensData.map(({ num, name }) => (
