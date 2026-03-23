@@ -13,7 +13,7 @@
 
 {"cod":7,"name":"Programación II","year":1,"semester":2,"prerequisites":[3],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=1653","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
-{"cod":8,"name":"Análisis Matemático","year":2,"semester":1,"prerequisites":[],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=75","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+{"cod":8,"name":"Análisis Matemático","year":2,"semester":1,"prerequisites":[],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=424","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
 {"cod":9,"name":"Sistemas Operativos I","year":2,"semester":1,"prerequisites":[5,6,7],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2511","schedules":[
 {"day":"Martes","startTime":"17:00","endTime":"21:00","classroom":"Aula 17","group":"TP","classType":"TP","modality":"virtual"},
@@ -25,7 +25,7 @@
 {"day":"Viernes","startTime":"08:00","endTime":"10:00","classroom":"Sala 2","group":"TP2","classType":"TP","modality":"virtual"}
 ],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
-{"cod":11,"name":"Redes y Comunicaciones","year":2,"semester":1,"prerequisites":[6],"classroomUrl":"","schedules":[
+{"cod":11,"name":"Redes y Comunicaciones","year":2,"semester":1,"prerequisites":[6],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=34","schedules":[
 {"day":"Lunes","startTime":"08:00","endTime":"11:00","classroom":"Aula 18","group":"TP1","classType":"TP","modality":"presencial"},
 {"day":"Miércoles","startTime":"08:00","endTime":"11:00","classroom":"Aula 17","group":"TP2","classType":"TP","modality":"presencial"}
 ],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
@@ -38,13 +38,13 @@
 
 {"cod":13,"name":"Sistemas Operativos II","year":2,"semester":2,"prerequisites":[9],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2504","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
-{"cod":14,"name":"Bases de Datos","year":2,"semester":2,"prerequisites":[5,7],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=54","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+{"cod":14,"name":"Bases de Datos","year":2,"semester":2,"prerequisites":[5,7],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=54","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
-{"cod":15,"name":"Teoría de Autómatas, Lenguajes y Computación","year":2,"semester":2,"prerequisites":[2,5],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=46","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+{"cod":15,"name":"Teoría de Autómatas, Lenguajes y Computación","year":2,"semester":2,"prerequisites":[2,5],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2506","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
 {"cod":16,"name":"Seminario de Lenguajes I","year":2,"semester":2,"prerequisites":[4,10],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=3071","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
-{"cod":17,"name":"Organización Empresarial y Modelos de Negocios","year":3,"semester":1,"prerequisites":[4,10],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=2942","schedules":[
+{"cod":17,"name":"Organización Empresarial y Modelos de Negocios","year":3,"semester":1,"prerequisites":[4,10],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=2942","schedules":[
 {"day":"Lunes","startTime":"17:00","endTime":"19:00","classroom":"Aula 14","group":"TP1","classType":"TP","modality":"virtual"},
 {"day":"Jueves","startTime":"15:00","endTime":"17:00","classroom":"Aula 28","group":"TP2","classType":"TP","modality":"presencial"}
 ],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
@@ -66,7 +66,7 @@
 
 {"cod":23,"name":"Aplicaciones de Bases de Datos II","year":3,"semester":2,"prerequisites":[12,19,"R1"],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=57","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
-{"cod":24,"name":"Programación Concurrente","year":3,"semester":2,"prerequisites":[9,10,14,"R1"],"classroomUrl":"https://virtual.unju.edu.ar/enrol/index.php?id=3100","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
+{"cod":24,"name":"Programación Concurrente","year":3,"semester":2,"prerequisites":[9,10,14,"R1"],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=3100","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 
 {"cod":25,"name":"Seguridad y Auditoría Informática","year":3,"semester":2,"prerequisites":[11,14,20,"R1"],"classroomUrl":"https://virtual.unju.edu.ar/course/view.php?id=47","schedules":[],"isOfferedBothSemesters":false,"groupLink":null,"drive":"","type":"mandatory","description":""},
 

@@ -96,7 +96,7 @@
       2,
       4
     ],
-    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3082",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3082",
     "schedules": [],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/CaGOSIf3tjG2LnBb6TZdYp?mode=gi_t",
@@ -335,7 +335,7 @@
       5,
       8
     ],
-    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=54",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=54",
     "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/E6xnvlwmzA71bhYVNserDJ",
@@ -352,7 +352,7 @@
       5,
       8
     ],
-    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3100",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3100",
     "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/Fxm41F80kyMCCYrenSdoib",
@@ -457,7 +457,7 @@
       5,
       8
     ],
-    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2942",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2942",
     "schedules": [
       {
         "day": "Lunes",
@@ -964,7 +964,7 @@
     "prerequisites": [
       15
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2492",
     "schedules": [
       {
         "day": "Lunes",
@@ -999,7 +999,7 @@
     "prerequisites": [
       14
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=56",
     "schedules": [
       {
         "day": "Lunes",
@@ -1034,7 +1034,7 @@
     "prerequisites": [
       14
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=57",
     "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
@@ -1050,7 +1050,7 @@
     "prerequisites": [
       15
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2525",
     "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
@@ -1101,7 +1101,7 @@
     "prerequisites": [
       20
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=1090",
     "schedules": [
       {
         "day": "Martes",
@@ -1136,7 +1136,7 @@
     "prerequisites": [
       20
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=282",
     "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
@@ -1190,7 +1190,7 @@
     "prerequisites": [
       12
     ],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2612",
     "schedules": [
       {
         "day": "Viernes",
