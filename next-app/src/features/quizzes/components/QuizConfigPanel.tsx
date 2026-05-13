@@ -266,7 +266,7 @@ export default function QuizConfigPanel({ quiz, onStart, onBack }: QuizConfigPan
             <div className="flex flex-col gap-2">
               {([
                 { value: 'standard', label: 'Estándar', desc: 'Puntos fijos por respuesta correcta.' },
-                { value: 'kahoot',   label: 'Kahoot',   desc: 'Más puntos cuanto más rápido respondas.' },
+                { value: 'rush',     label: 'Rush',     desc: 'Más puntos cuanto más rápido respondas.' },
               ] as const).map(opt => (
                 <label
                   key={opt.value}
