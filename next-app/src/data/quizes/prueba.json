@@ -1,0 +1,783 @@
+{
+  "id": "os-quiz-2022-2025",
+  "title": "Recopilatorio Parciales Teóricos Sistemas Operativos",
+  "description": "Recopilatorio de preguntas de parciales teóricos del periodo 2022-2025.",
+  "subject": "Sistemas Operativos",
+  "difficulty": "medium",
+  "tags": ["SO", "Sistemas Operativos", "Teoría"],
+  "timeMode": "global",
+  "scoringMode": "standard",
+  "randomizeQuestions": false,
+  "randomizeAnswers": false,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cuál es el principal problema en la técnica de detección y recuperación del interbloqueo?",
+      "order": 1,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Esta técnica no presenta ningún problema reseñable.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El detectar qué procesos están involucrados en el interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "La pérdida de trabajo que supone la mayor parte de las veces la recuperación.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El detectar que existe el interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Indique cuál de las siguientes afirmaciones es correcta:",
+      "order": 2,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El núcleo es la parte del sistema operativo que interacciona directamente con el software de la máquina.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El sistema operativo puede incluir varios intérpretes de mandatos, pudiendo elegir el usuario el que más le interese.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "La comunicación y sincronización entre procesos es la forma que tiene de comunicarse el sistema operativo con el usuario.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas anteriores es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "En un sistema informático ocurre que:",
+      "order": 3,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El SO es un programa de sistemas que controla la ejecución de únicamente los programas de aplicación.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El usuario programador debe conocer el hardware del sistema informático para programar el código del sistema operativo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Los programas de sistemas son programas de aplicación.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "La solución al problema de la sección crítica NO satisface la condición de progreso si:",
+      "order": 4,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Un proceso que ejecuta el resto de las instrucciones que no son ni de la sección crítica ni de la sección de entrada ni de la sección de salida impide que otro proceso acceda a la sección crítica.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Un proceso que ejecuta la sección crítica de un recurso impide que otro ejecute el resto de las instrucciones que no son de la sección crítica.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Un proceso que ejecuta la sección crítica de un recurso y permite que otro ejecute el resto de las instrucciones que no son de la sección crítica.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Un proceso que ejecuta el resto de las instrucciones que no son ni de la sección crítica y permite que otro proceso acceda a la sección crítica.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "¿Cuál de las siguientes son razones que motivan la concurrencia?",
+      "order": 5,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Posibilitar el uso interactivo dentro de una terminal.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El mejor aprovechamiento de los recursos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Facilita la cooperación entre procesos que no tienen nada en común.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna es correcta de las otras opciones.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "¿Qué algoritmos de planificación plantean la expulsión de procesos?",
+      "order": 6,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Planificación por prioridades y trabajo más corto.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Round Robin y prioridades.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Tiempo real y Round Robin.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Planificación Round Robin y FIFO.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "En la solución al problema de la exclusión mutua mediante monitores, la respuesta correcta es:",
+      "order": 7,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "No es posible acceder a datos del monitor, a no ser que se haga mediante métodos de este.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "La operación signal(c) suspende un proceso bajo la condición c.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Pueden existir varios procesos activos en el monitor, pero que han sido reanudados bajo condiciones distintas.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las anteriores es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "Sobre hilos de ejecución ¿Cuál de las siguientes afirmaciones NO es correcta?",
+      "order": 8,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Son equivalentes los términos hilo y proceso ligero.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Los hilos de un mismo proceso utilizan su propia pila.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Un sistema que soporta hilos permite tener varios flujos de ejecución sobre el mismo código.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las afirmaciones restantes es correcta.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "En una política de planificación de procesos basada en round-robin si se quiere introducir alguna característica adaptativa, se podría:",
+      "order": 9,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Hacer la política no Expulsiva.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ordenar la cola de procesos por prioridad.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Tener en cuenta la variable en función de la carga del sistema.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "¿En qué política de tratamiento del interbloqueo se ordenan y numeran los recursos, no permitiendo peticiones de recursos de mayor número que el mayor asignado al proceso?",
+      "order": 10,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "En la prevención, negando la condición de espera circular.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "En la prevención, negando la condición de espera.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En la evitación del interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En la detección del interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "El concepto de llamada al sistema debe ser conocido y va a ser utilizado fundamentalmente por un tipo de usuario.",
+      "order": 11,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Usuario implementador.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Usuario de órdenes.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Usuario programador.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Usuario administrador.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "Elegir de entre las siguientes afirmaciones, la correcta:",
+      "order": 12,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El software de aplicación sólo puede utilizar el hardware a través del sistema operativo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El Sistema Operativo es un software de aplicación que define el modo de utilizar el hardware.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El Sistema Operativo es un software de sistemas que libera al programador de conocer los detalles del hardware.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El Sistema Operativo es un software de aplicación necesario para hacer funcionar una computadora.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "order": 13,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Proceso y programa son conceptos equivalentes.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Monoproceso y monoprocesador son conceptos equivalentes.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Proceso e hilo son conceptos equivalentes.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las afirmaciones restantes es correcta.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "order": 14,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El planificador a corto plazo elige cuál es el siguiente proceso bloqueado que pasa a la cola de listos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En un modelo de planificación expulsiva los procesos no pueden abandonar el procesador por causas ajenas a su voluntad.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En un sistema con planificación expulsiva por prioridades es posible que se produzca la inanición de un proceso.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las afirmaciones restantes es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "question": "La técnica del \"robo de ciclo\" utilizada para implementar el DMA se basa en:",
+      "order": 15,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "\"Robar\" ciclos de CPU al programa que la está utilizando para realizar la transferencia de datos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "\"Robar\" ciclos del bus del sistema a la CPU para realizar la transferencia de datos entre el dispositivo y la memoria.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Utilizar dispositivos conectados directamente al bus, sin necesidad de controladores intermedios.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "question": "¿Cuál de las siguientes afirmaciones NO es correcta?",
+      "order": 16,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El Bloque de Control de un Proceso almacena el estado del procesador del instante en que el proceso es interrumpido.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Desde el BCP se puede localizar los segmentos de memoria asignados a los procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Siempre que se produce una interrupción, el sistema operativo salva el estado del procesador en el BCP del proceso interrumpido.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las afirmaciones restantes es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "question": "Cuando se produce una interrupción de reloj en el sistema, se interrumpe la ejecución del programa en ejecución. Al terminar el manejador, ¿qué se ejecuta a continuación?",
+      "order": 17,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Siempre se continúa la ejecución del programa interrumpido.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "A veces se puede pasar a ejecutar un programa distinto.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Siempre se pasa a ejecutar un programa distinto, dado que se le ha acabado el tiempo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "question": "De las siguientes opciones, solamente una NO es un servicio que el subsistema de gestión de procesos ofrece a los usuarios:",
+      "order": 18,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Destrucción de procesos", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Comunicación de procesos", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Planificación de procesos", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Creación de procesos", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "question": "Cuál de las siguientes afirmaciones es correcta:",
+      "order": 19,
+      "points": 2,
+      "type": "Single",
+      "answers": [
+        { "text": "La prevención del interbloqueo consiste en eliminar la exclusión mutua.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "La espera circular, la no apropiación, la espera y retención y la exclusión mutua son las condiciones necesarias para el interbloqueo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El algoritmo del banquero consiste en la negación de la espera circular.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "question": "La unidad mínima de ejecución es:",
+      "order": 20,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El proceso", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El hilo", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El programa", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "La tarea", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q21",
+      "question": "Cuál de las siguientes afirmaciones es correcta:",
+      "order": 21,
+      "points": 2,
+      "type": "Single",
+      "answers": [
+        { "text": "La prevención del interbloqueo consiste en eliminar la exclusión mutua", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "La espera circular, la no apropiación o requerimiento, la espera y retención y la exclusión mutua son las cuatro condiciones necesarias para que se produzca interbloqueo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El algoritmo del banquero consiste en la negación de la espera circular.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q22",
+      "question": "El principal objetivo de la multiprogramación es",
+      "order": 22,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Hacer más relajado el trabajo de los operadores.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Aprovechar al máximo la CPU.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Acercar la maquina al usuario.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q23",
+      "question": "Uno de los siguientes es un objetivo de un sistema operativo. Señálelo.",
+      "order": 23,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Ofrecer una serie de servicios simples y de alto nivel al usuario.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Gestionar los elementos del sistema de cómputo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Generar código eficiente de los programas en lenguaje de alto nivel que necesite el usuario.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Realizar sus tareas de una manera eficiente.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q24",
+      "question": "Para que un sistema operativo pueda ser considerado multiprogramación es necesario que",
+      "order": 24,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Sea capaz de atender a múltiples procesos del mismo usuario simultáneamente.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Sea capaz de atender a múltiples procesos simultáneamente.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Sea capaz de atender a múltiples usuarios simultáneamente.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q25",
+      "question": "Sea un sistema operativo monoprogramación. Es imposible que sea:",
+      "order": 25,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "De procesamiento por lotes.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Multiusuario.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Multitarea.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Monotarea.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q26",
+      "question": "Los procesos que se ejecutan en un sistema de tiempo real tienen una característica principal. Señale cuál.",
+      "order": 26,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "La no interactividad.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El tener unos requerimientos temporales muy exigentes.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El no tener un plazo de entrega determinado.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es la correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q27",
+      "question": "La utilidad principal que tiene los spool es",
+      "order": 27,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Descargar a la CPU del trabajo de entrada / salida.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Acelerar los accesos a los dispositivos periféricos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Permitir la utilización simultánea de dispositivos de uso exclusivo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q28",
+      "question": "Cuando ocurre una interrupción y se pasa a tratarla",
+      "order": 28,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El procesador permanece en modo normal.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Se ignoran siempre las interrupciones que puedan ocurrir hasta que se termine de tratarla.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El procesador pasa a modo privilegiado.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q29",
+      "question": "Cuando se produce una interrupción, la rutina que se ejecuta para tratarla viene determinada por",
+      "order": 29,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El módulo de gestión de memoria.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El vector de interrupciones.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El manejador de interrupciones.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q30",
+      "question": "La aparición de los sistemas de tiempo compartido hizo que hubiera que implementar un nuevo motivo para que el proceso deje la CPU. Señale cuál:",
+      "order": 30,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "El proceso se va a dormir.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Al proceso se le acaba el cuánto.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El proceso termina.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El proceso hace una llamada al sistema.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q31",
+      "question": "De las siguientes, solamente una NO es una de las funciones del subsistema de gestión de procesos. Señale cuál.",
+      "order": 31,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Destrucción de procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Comunicación de procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Planificación de procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna del resto de las respuestas es correcta.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q32",
+      "question": "El cambio de contexto se produce:",
+      "order": 32,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Por cada interrupción de reloj.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Cuando un proceso despierta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Siempre que un proceso se va a dormir.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna del resto de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q33",
+      "question": "Uno de los siguientes NO es un objetivo deseable en una política de planificación de procesos. Señale cuál:",
+      "order": 33,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Minimizar la sobrecarga del sistema.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Maximizar el rendimiento del sistema.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Evitar el interbloqueo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Minimizar los tiempos de respuesta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q34",
+      "question": "Un hilo: (2)",
+      "order": 34,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Puede contener varios procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Es un concepto distinto al proceso, pero es similar al proceso tradicional en cuanto a que representa una unidad mínima de ejecución.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Es otra forma de llamar a los procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q35",
+      "question": "La estructura de datos que utiliza el sistema operativo para representar a cada uno de los procesos se llama: (2)",
+      "order": 35,
+      "points": 2,
+      "type": "Single",
+      "answers": [
+        { "text": "Tabla de interrupciones.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Mapa de memoria.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Bloque de control de procesos.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q36",
+      "question": "Para prevenir el interbloqueo:",
+      "order": 36,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Ninguna es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Se utilizan técnicas como la reducción de grafos de asignación de recursos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Hay que utilizar un gestor de recursos basado en el algoritmo del banquero u otro similar.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Se usan técnicas basadas en negar cualquiera de las cuatro condiciones necesarias para el interbloqueo.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q37",
+      "question": "El tiempo que transcurre desde que el usuario lanza un proceso hasta que éste termina se denomina.",
+      "order": 37,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Tiempo de respuesta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Tiempo de sistema.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Tiempo de retorno.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Tiempo de espera.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q38",
+      "question": "Se desea conseguir un sistema operativo en el que se dé prioridad a los procesos con mucha E/S, si bien, la existencia o no de E/S no es un hecho conocido a priori antes de la ejecución. ¿Cómo podría el planificador influir en ello?",
+      "order": 38,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Aumentando la prioridad a los procesos cuando pasan al estado bloqueado,", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Aumentando la prioridad cada cierto tiempo a todos los procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Aumentando la prioridad cada cierto tiempo a los procesos listos para ejecución.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna del resto de respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q39",
+      "question": "El tiempo que transcurre desde que el usuario lanza un proceso hasta que éste termina se denomina. (Dif 37)",
+      "order": 39,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Tiempo de espera.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Tiempo de retorno.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Tiempo de respuesta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Tiempo de microprocesador.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q40",
+      "question": "¿Cuál es la diferencia entre la concurrencia real y la aparente?",
+      "order": 40,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "En la concurrencia real los procesos alternan su ejecución; en la aparente se ejecutan realmente en paralelo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En la concurrencia aparente el usuario especifica directamente la concurrencia; en la real la concurrencia es generada por el compilador.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En la concurrencia real la concurrencia la especifica directamente el usuario; la aparente es generada por el compilador.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En la concurrencia aparente los procesos alternan su ejecución; en la real se ejecutan realmente en paralelo.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    }
+,
+
+    {
+      "id": "q41",
+      "question": "Sean dos procesos concurrentes que utilizan monitores como mecanismo de sincronización. ¿Pueden estar los dos procesos simultáneamente esperando en variables de tipo condición?",
+      "order": 41,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "No.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Sí, siempre que se trate de variables distintas.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Si.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q42",
+      "question": "Sea un sistema donde se utiliza la técnica del spool para la impresora. En este contexto sólo una de las siguientes afirmaciones es correcta. Señálela.",
+      "order": 42,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Un proceso nunca se va a ver bloqueado cuando intente hacer una operación de impresión.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Es necesario que la impresora esté libre para que un proceso pueda realizar operaciones de impresión.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Debe haber más de una impresora en el sistema para aplicar esa técnica.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Puede haber varios procesos simultáneamente realizando operaciones de impresión sobre la misma impresora.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q43",
+      "question": "El planificador a corto plazo:",
+      "order": 43,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Pasa procesos de esperando a listos para ejecución.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Rebaja el grado de multiprogramación del sistema.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Elige procesos para pasarlos a ejecución.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Pasa procesos de nuevo a ejecutando.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q44",
+      "question": "Un sistema multitarea NO puede ser:",
+      "order": 44,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Monopuesto.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna del resto de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Monoprogramación.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Monousuario.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q45",
+      "question": "Para evitar el interbloqueo utilizando el algoritmo del banquero se utiliza el concepto de 'estado seguro'. Este concepto hace referencia a:",
+      "order": 45,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Un estado en el que el sistema está en interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Un estado desde donde es imposible que el sistema caiga en interbloqueo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Un estado desde donde es seguro que el sistema caerá en interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q46",
+      "question": "En un sistema operativo típico mientras se está ejecutando una llamada al sistema:",
+      "order": 46,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El procesador está en modo supervisor o núcleo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El modo de ejecución no está relacionado con las llamadas al sistema.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El procesador está en modo usuario.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q47",
+      "question": "En un sistema que carece de recursos expulsivos",
+      "order": 47,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "No puede darse el interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna del resto de las contestaciones es válida.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "No puede producirse aplazamiento indefinido.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Puede darse el interbloqueo.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q48",
+      "question": "¿En qué política de tratamiento del interbloqueo se ordenan y numeran los recursos, no permitiendo peticiones de recursos de mayor número que el mayor asignado al proceso?",
+      "order": 48,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "En la prevención, negando la condición de espera circular.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "En la prevención, negando la condición de espera.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En la evitación del interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "En la detección del interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q49",
+      "question": "Cuál de las siguientes afirmaciones es correcta.",
+      "order": 49,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Si en un sistema de tiempo compartido, el Quantum es muy pequeño, aumenta el vapuleo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Los algoritmos de planificación, primero el más corto, Round Robin, y FIFO son políticas no expulsivas.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las anteriores.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Para disminuir el grado de multiprogramación el SO puede bloquear procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q50",
+      "question": "Cuál de las siguientes afirmaciones es INCORRECTA",
+      "order": 50,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Si no se exige que un recurso sea utilizado en exclusión mutua, éste no producirá interbloqueo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Más de una de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Siempre que existen recursos compartidos entre dos procesos, puede haber interbloqueo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "El interbloqueo se produce cuando hay un bloqueo permanente de procesos en ejecución.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q51",
+      "question": "La forma que tiene un proceso de solicitar los servicios del S.O. es:",
+      "order": 51,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Mediante las interrupciones provocadas por algún dispositivo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Mediante las llamadas al sistema.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Mediante las interrupciones reloj.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Mediante excepciones.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q52",
+      "question": "Un proceso que está listo para ejecución no puede pasar a uno de los siguientes estados. Señálelo.",
+      "order": 52,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ejecutándose.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Creado.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Dormido.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q53",
+      "question": "De los siguientes eventos, ¿cuáles producirían siempre un cambio de proceso en un sistema operativo multiprogramado con una política de planificación Round Robin+FIFO?",
+      "order": 53,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Ninguna de las anteriores.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "La aparición de un nuevo proceso en el estado listo.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El proceso en listo realiza una llamada al sistema.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Una interrupción de reloj.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q54",
+      "question": "¿Qué es la sección crítica?",
+      "order": 54,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Parte del código de un programa que trata con llamadas al hardware.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Parte del código del programa que es susceptible de crear errores.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Parte del código de un programa que accede a recursos compartidos con otros programas, que deben de ser de acceso exclusivo.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Parte del código del programa que es susceptible de crear errores.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q55",
+      "question": "Sea una variable de tipo semáforo, inicializada a 2. En un momento dado se han ejecutado 2 operaciones wait y 1 operación signal. Si a continuación un proceso realiza un wait:",
+      "order": 55,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Continúa su ejecución sin modificar el valor numérico de la variable.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Se queda dormido.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Restat uno al valor numérico de la variable y continúa su ejecución.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna del resto de respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q56",
+      "question": "¿Qué parte del sistema operativo se encarga de la gestión de los recursos del sistema?",
+      "order": 56,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Los programas de aplicación.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El intérprete de órdenes.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "La capa de servicios o de llamadas al sistema.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El núcleo.", "isCorrect": true, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q57",
+      "question": "Una de las siguientes afirmaciones acerca del uso de hilos es cierta:",
+      "order": 57,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Es fácil compartir memoria entre distintos hilos del mismo proceso pesado.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las opciones restantes es cierta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El costo del cambio de contexto entre hilos del mismo proceso pesado es mayor que entre procesos pesados.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Conviene que un mismo proceso pesado utilice solamente unos pocos hilos, porque consumen muchos recursos exclusivos.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q58",
+      "question": "Un Sistema Operativo Multitarea es:",
+      "order": 58,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Aquel que permite que coexista varios procesos activos a la vez.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Aquel que gestiona la memoria para todos los procesos.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Soporta varios usuarios trabajando simultáneamente.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    },
+    {
+      "id": "q59",
+      "question": "Para evitar la inanición en una política de planificación basada en prioridades se desarrolló:",
+      "order": 59,
+      "points": 4,
+      "type": "Single",
+      "answers": [
+        { "text": "Las prioridades distintas para cada proceso.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "Las prioridades estáticas.", "isCorrect": false, "drag": false, "correctOrder": 0 },
+        { "text": "El envejecimiento de prioridades.", "isCorrect": true, "drag": false, "correctOrder": 0 },
+        { "text": "Ninguna de las respuestas es correcta.", "isCorrect": false, "drag": false, "correctOrder": 0 }
+      ]
+    }
+  ]
+}
