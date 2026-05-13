@@ -1,33 +1,41 @@
 import { NextResponse } from 'next/server'
-import { readFile } from 'fs/promises'
+import { readFile, readdir } from 'fs/promises'
 import path from 'path'
-
-/**
- * Map of quiz IDs to their JSON file paths (relative to project root).
- * Must be kept in sync with /api/quizzes/route.ts
- */
-const QUIZ_FILE_MAP: Record<string, string> = {
-  quiz1: 'src/data/quizes/prueba.json',
-}
 
 export async function GET(
   _req: Request,
   { params }: { params: Promise<{ quizId: string }> }
 ) {
   const { quizId } = await params
-  const relativeFilePath = QUIZ_FILE_MAP[quizId]
+  
+  try {
+    const quizzesDir = path.join(process.cwd(), 'src/data/quizes')
+    let files: string[] = []
+    try {
+      files = await readdir(quizzesDir)
+    } catch {
+      files = []
+    }
 
-  if (!relativeFilePath) {
+    const jsonFiles = files.filter(f => f.endsWith('.json'))
+
+    // Search for the quiz with the matching ID
+    for (const filename of jsonFiles) {
+      const absolutePath = path.join(quizzesDir, filename)
+      const content = await readFile(absolutePath, 'utf8')
+      const quiz = JSON.parse(content)
+      
+      const parsedId = quiz.id ?? filename.replace('.json', '')
+      if (parsedId === quizId) {
+        return NextResponse.json(quiz)
+      }
+    }
+
+    // If loop finishes without returning, the quiz wasn't found
     return NextResponse.json(
       { error: `No quiz found with id: "${quizId}"` },
       { status: 404 }
     )
-  }
-
-  try {
-    const absolutePath = path.join(process.cwd(), relativeFilePath)
-    const content = await readFile(absolutePath, 'utf8')
-    return NextResponse.json(JSON.parse(content))
   } catch (error) {
     console.error('Error reading quiz data:', error)
     return NextResponse.json(

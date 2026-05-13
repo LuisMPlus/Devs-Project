@@ -1,26 +1,28 @@
 import { NextResponse } from 'next/server'
-import { readFile } from 'fs/promises'
+import { readFile, readdir } from 'fs/promises'
 import path from 'path'
-
-/**
- * Map of quiz IDs to their JSON file paths (relative to project root).
- * Add new quizzes here as they are created.
- */
-const QUIZ_FILE_MAP: Record<string, string> = {
-  quiz1: 'src/data/quizes/prueba.json',
-}
 
 export async function GET() {
   try {
+    const quizzesDir = path.join(process.cwd(), 'src/data/quizes')
+    let files: string[] = []
+    try {
+      files = await readdir(quizzesDir)
+    } catch {
+      files = []
+    }
+
+    const jsonFiles = files.filter(f => f.endsWith('.json'))
+
     const quizzes = await Promise.all(
-      Object.entries(QUIZ_FILE_MAP).map(async ([id, relPath]) => {
-        const absolutePath = path.join(process.cwd(), relPath)
+      jsonFiles.map(async (filename) => {
+        const absolutePath = path.join(quizzesDir, filename)
         const content = await readFile(absolutePath, 'utf8')
         const quiz = JSON.parse(content)
 
         // Return only metadata — no questions
         return {
-          id: quiz.id ?? id,
+          id: quiz.id ?? filename.replace('.json', ''),
           title: quiz.title,
           description: quiz.description ?? null,
           difficulty: quiz.difficulty ?? null,
