@@ -1241,6 +1241,23 @@
     "description": "60 horas acreditables"
   },
   {
+    "cod": 48,
+    "name": "INTRODUCCIÓN A LA INNOVACIÓN Y ENTREPRENEURSHIP",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3782",
+    "schedules": [
+    ],
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "60 horas acreditables"
+  },
+  {
     "cod": "PPS",
     "name": "Práctica Profesional Supervisada",
     "year": 5,
