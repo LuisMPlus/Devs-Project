@@ -6,7 +6,6 @@
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/course/info.php?id=78",
-    "schedules": [],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/F8irjR8jiYQ1wNEOGh2suX?mode=gi_t",
     "drive": "",
@@ -20,7 +19,6 @@
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3224",
-    "schedules": [],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/CzyprNtYHSc9gn8my681NT",
     "drive": "",
@@ -34,7 +32,6 @@
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2949",
-    "schedules": [],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/ESldtbH90bdCHGDkShp93y",
     "drive": "",
@@ -48,7 +45,6 @@
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=426",
-    "schedules": [],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/GeZGAz1ZAmv3kW0Imsli7E",
     "drive": "",
@@ -64,7 +60,6 @@
       1
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/info.php?id=167",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/IVRJ0W6nJTV6IMW0Fs5O9B",
     "drive": "",
@@ -80,7 +75,6 @@
       4
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3081",
-    "schedules": [],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/IYmCPonUr0z4LnGyOUqx4k?mode=ac_t",
     "drive": "",
@@ -97,7 +91,6 @@
       4
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3082",
-    "schedules": [],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/CaGOSIf3tjG2LnBb6TZdYp?mode=gi_t",
     "drive": "",
@@ -113,7 +106,6 @@
       1
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2496",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/CqVZChXRJh48BzLXuBQTO5?mode=gi_t",
     "drive": "",
@@ -129,44 +121,6 @@
       2
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=464",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "14:00",
-        "endTime": "15:30",
-        "classroom": "",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      },
-      {
-        "day": "Jueves",
-        "startTime": "11:00",
-        "endTime": "12:30",
-        "classroom": "",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "10:30",
-        "endTime": "13:00",
-        "classroom": "Aula 18",
-        "group": "P1",
-        "classType": "P",
-        "modality": "presencial"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "13:30",
-        "endTime": "16:00",
-        "classroom": "Aula 18",
-        "group": "P2",
-        "classType": "P",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/FCzhJuCnngwKLVzXjK7yot?mode=gi_t",
     "drive": "",
@@ -182,44 +136,6 @@
       3
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=46",
-    "schedules": [
-      {
-        "day": "Jueves",
-        "startTime": "08:30",
-        "endTime": "10:30",
-        "classroom": "Aula 30",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      },
-      {
-        "day": "Martes",
-        "startTime": "09:30",
-        "endTime": "11:30",
-        "classroom": "Aula 27",
-        "group": "P1",
-        "classType": "P",
-        "modality": "presencial"
-      },
-      {
-        "day": "Martes",
-        "startTime": "15:00",
-        "endTime": "17:00",
-        "classroom": "Aula 26",
-        "group": "P2",
-        "classType": "P",
-        "modality": "presencial"
-      },
-      {
-        "day": "Martes",
-        "startTime": "18:00",
-        "endTime": "20:00",
-        "classroom": "Aula 16",
-        "group": "P3",
-        "classType": "P",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/Ke9FOhoRpf28Dv6KxMqbwB",
     "drive": "",
@@ -239,26 +155,6 @@
       8
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=120",
-    "schedules": [
-      {
-        "day": "Lunes",
-        "startTime": "19:00",
-        "endTime": "22:00",
-        "classroom": "Aula 12",
-        "group": "TP1",
-        "classType": "TP",
-        "modality": "presencial"
-      },
-      {
-        "day": "Viernes",
-        "startTime": "13:30",
-        "endTime": "16:30",
-        "classroom": "Aula 11",
-        "group": "TP2",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/GUeuJNuNihyE9ST0FCy6Mo",
     "drive": "",
@@ -275,35 +171,6 @@
       6
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3094",
-    "schedules": [
-      {
-        "day": "Viernes",
-        "startTime": "10:00",
-        "endTime": "12:00",
-        "classroom": "Aula 15",
-        "group": "T",
-        "classType": "T",
-        "modality": "presencial"
-      },
-      {
-        "day": "Martes",
-        "startTime": "17:00",
-        "endTime": "19:00",
-        "classroom": "Aula 24",
-        "group": "C1",
-        "classType": "P",
-        "modality": "presencial"
-      },
-      {
-        "day": "Jueves",
-        "startTime": "17:00",
-        "endTime": "19:00",
-        "classroom": "Aula 31",
-        "group": "C2",
-        "classType": "P",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/FrIByEcOszu5ZVzIskVhLr",
     "drive": "",
@@ -319,7 +186,6 @@
       7
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3244",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "",
     "drive": "",
@@ -336,7 +202,6 @@
       8
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=54",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/E6xnvlwmzA71bhYVNserDJ",
     "drive": "",
@@ -353,7 +218,6 @@
       8
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3100",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/Fxm41F80kyMCCYrenSdoib",
     "drive": "",
@@ -369,7 +233,6 @@
       6
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=42",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/HfIxYslt6BG0b6cKTgVFoj",
     "drive": "",
@@ -385,26 +248,6 @@
       2
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=137",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "13:00",
-        "endTime": "15:00",
-        "classroom": "Aula 17",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "16:00",
-        "endTime": "18:00",
-        "classroom": "Anfiteatro",
-        "group": "P",
-        "classType": "P",
-        "modality": "hibrido"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/GDl6bTw5tDaDzE3A1Bj8SZ?mode=gi_t",
     "drive": "",
@@ -422,26 +265,6 @@
       8
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2511",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "17:00",
-        "endTime": "21:00",
-        "classroom": "Aula 17",
-        "group": "TP",
-        "classType": "TP",
-        "modality": "virtual"
-      },
-      {
-        "day": "Viernes",
-        "startTime": "16:30",
-        "endTime": "18:30",
-        "classroom": "Aula 12",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/ChwOVhop54p2bLvs7q86mn",
     "drive": "",
@@ -458,26 +281,6 @@
       8
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2942",
-    "schedules": [
-      {
-        "day": "Lunes",
-        "startTime": "17:00",
-        "endTime": "19:00",
-        "classroom": "Aula 14",
-        "group": "TP1",
-        "classType": "TP",
-        "modality": "virtual"
-      },
-      {
-        "day": "Jueves",
-        "startTime": "15:00",
-        "endTime": "17:00",
-        "classroom": "Aula 28",
-        "group": "TP2",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": true,
     "groupLink": "https://chat.whatsapp.com/FiFUxQZD0XZIxoHIsd8CzP?mode=gi_t",
     "drive": "",
@@ -493,26 +296,6 @@
       15
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=55",
-    "schedules": [
-      {
-        "day": "Lunes",
-        "startTime": "14:00",
-        "endTime": "17:00",
-        "classroom": "Aula 31",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      },
-      {
-        "day": "Jueves",
-        "startTime": "19:00",
-        "endTime": "22:00",
-        "classroom": "Aula 11",
-        "group": "P",
-        "classType": "P",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/CmncO068J2YL2zhVZHJ8Mx",
     "drive": "",
@@ -533,7 +316,6 @@
     "semester": null,
     "prerequisites": [],
     "classroomUrl": "",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -550,7 +332,6 @@
       17
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2506",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/EEPZoLnKbwQ0kE9zpaEN9g",
     "drive": "",
@@ -566,7 +347,6 @@
       18
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2504",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/FWcqx8TH58BA5CzvaW4nIc?mode=gi_t",
     "drive": "",
@@ -583,7 +363,6 @@
       16
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=60",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/Jw2CYw1wLCGF0m0vacKZJD?mode=gi_t",
     "drive": "",
@@ -599,26 +378,6 @@
       19
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3045",
-    "schedules": [
-      {
-        "day": "Lunes",
-        "startTime": "18:00",
-        "endTime": "20:00",
-        "classroom": "Salón 4",
-        "group": "TP1",
-        "classType": "TP",
-        "modality": "virtual"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "18:00",
-        "endTime": "20:00",
-        "classroom": "Aula 15",
-        "group": "TP2",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/FFrheXnbFLs1LvIm8SBvgv",
     "drive": "",
@@ -641,26 +400,6 @@
       20
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3131",
-    "schedules": [
-      {
-        "day": "Viernes",
-        "startTime": "13:30",
-        "endTime": "16:30",
-        "classroom": "Aula 12",
-        "group": "T",
-        "classType": "T",
-        "modality": "presencial"
-      },
-      {
-        "day": "Viernes",
-        "startTime": "20:00",
-        "endTime": "23:00",
-        "classroom": "Salón 5",
-        "group": "P",
-        "classType": "P",
-        "modality": "virtual"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -676,26 +415,6 @@
       23
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=33",
-    "schedules": [
-      {
-        "day": "Lunes",
-        "startTime": "08:00",
-        "endTime": "11:00",
-        "classroom": "Aula 18",
-        "group": "TP1",
-        "classType": "TP",
-        "modality": "presencial"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "08:00",
-        "endTime": "11:00",
-        "classroom": "Aula 17",
-        "group": "TP2",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -720,7 +439,6 @@
       "R1"
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=435",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -743,7 +461,6 @@
       "R1"
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/info.php?id=21",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -769,7 +486,6 @@
       "R1"
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=3133",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -787,7 +503,6 @@
     "semester": null,
     "prerequisites": [],
     "classroomUrl": "",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -805,7 +520,6 @@
       "R1"
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=47",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -827,26 +541,6 @@
       "R2"
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=831",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "19:00",
-        "endTime": "21:00",
-        "classroom": "Aula 15",
-        "group": "TP1",
-        "classType": "TP",
-        "modality": "presencial"
-      },
-      {
-        "day": "Jueves",
-        "startTime": "15:00",
-        "endTime": "17:00",
-        "classroom": "Aula 27",
-        "group": "TP2",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -870,26 +564,6 @@
       "R2"
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2000",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "14:00",
-        "endTime": "17:00",
-        "classroom": "Aula 31",
-        "group": "T",
-        "classType": "T",
-        "modality": "presencial"
-      },
-      {
-        "day": "Lunes",
-        "startTime": "07:00",
-        "endTime": "10:00",
-        "classroom": "Salón 1",
-        "group": "P",
-        "classType": "P",
-        "modality": "virtual"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": "https://chat.whatsapp.com/FqYFSqyiTyiLejdtRRGdc3",
     "drive": "",
@@ -910,26 +584,6 @@
       "R2"
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2505",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "16:00",
-        "endTime": "18:00",
-        "classroom": "Aula 30",
-        "group": "TP1",
-        "classType": "TP",
-        "modality": "presencial"
-      },
-      {
-        "day": "Jueves",
-        "startTime": "17:00",
-        "endTime": "19:00",
-        "classroom": "Aula 30",
-        "group": "TP2",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": true,
     "groupLink": null,
     "drive": "",
@@ -949,7 +603,6 @@
       33
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=488",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -965,26 +618,6 @@
       15
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2492",
-    "schedules": [
-      {
-        "day": "Lunes",
-        "startTime": "10:00",
-        "endTime": "13:00",
-        "classroom": "Aula 16",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "18:00",
-        "endTime": "21:00",
-        "classroom": "Aula 14",
-        "group": "P",
-        "classType": "P",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1000,26 +633,6 @@
       14
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=56",
-    "schedules": [
-      {
-        "day": "Lunes",
-        "startTime": "19:00",
-        "endTime": "21:00",
-        "classroom": "Aula 31",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "16:00",
-        "endTime": "18:00",
-        "classroom": "Aula 15",
-        "group": "P",
-        "classType": "P",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1035,7 +648,6 @@
       14
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=57",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1051,7 +663,6 @@
       15
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2525",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1067,26 +678,6 @@
       22
     ],
     "classroomUrl": "",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "14:00",
-        "endTime": "17:00",
-        "classroom": "",
-        "group": "T",
-        "classType": "T",
-        "modality": "virtual"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "15:00",
-        "endTime": "18:00",
-        "classroom": "Aula 30",
-        "group": "P",
-        "classType": "P",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1102,26 +693,6 @@
       20
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=1090",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "19:00",
-        "endTime": "21:00",
-        "classroom": "Salón 7",
-        "group": "TP1",
-        "classType": "TP",
-        "modality": "virtual"
-      },
-      {
-        "day": "Jueves",
-        "startTime": "16:00",
-        "endTime": "18:00",
-        "classroom": "Salón 7",
-        "group": "TP2",
-        "classType": "TP",
-        "modality": "virtual"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1137,7 +708,6 @@
       20
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=282",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1153,26 +723,6 @@
       19
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=1031",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "09:00",
-        "endTime": "11:00",
-        "classroom": "Aula 26",
-        "group": "TP1",
-        "classType": "TP",
-        "modality": "presencial"
-      },
-      {
-        "day": "Jueves",
-        "startTime": "09:00",
-        "endTime": "11:00",
-        "classroom": "Aula 27",
-        "group": "TP2",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1191,17 +741,6 @@
       12
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2612",
-    "schedules": [
-      {
-        "day": "Viernes",
-        "startTime": "14:00",
-        "endTime": "16:00",
-        "classroom": "Aula 17",
-        "group": "TP",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1217,7 +756,6 @@
       12
     ],
     "classroomUrl": "",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1233,7 +771,6 @@
       12
     ],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=493",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1245,12 +782,8 @@
     "name": "INTRODUCCIÓN A LA INNOVACIÓN Y ENTREPRENEURSHIP",
     "year": null,
     "semester": null,
-    "prerequisites": [
-      
-    ],
+    "prerequisites": [],
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=3782",
-    "schedules": [
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1266,7 +799,6 @@
       "R3"
     ],
     "classroomUrl": "",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1282,7 +814,6 @@
       "Reglamento de Trabajos Finales de la Facultad"
     ],
     "classroomUrl": "",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1297,26 +828,6 @@
     "prerequisites": [],
     "description": "Haber aprobado al menos una materia de la carrera",
     "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2527",
-    "schedules": [
-      {
-        "day": "Martes",
-        "startTime": "08:00",
-        "endTime": "10:00",
-        "classroom": "Aula 31",
-        "group": "C1",
-        "classType": "TP",
-        "modality": "presencial"
-      },
-      {
-        "day": "Miércoles",
-        "startTime": "08:00",
-        "endTime": "10:00",
-        "classroom": "Aula 27",
-        "group": "C2",
-        "classType": "TP",
-        "modality": "presencial"
-      }
-    ],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1332,7 +843,6 @@
     ],
     "description": "Requiere haber aprobado R1",
     "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2508",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -1346,7 +856,6 @@
     "prerequisites": [],
     "description": "Tener hasta cuarto año las materias regularizadas",
     "classroomUrl": "",
-    "schedules": [],
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",

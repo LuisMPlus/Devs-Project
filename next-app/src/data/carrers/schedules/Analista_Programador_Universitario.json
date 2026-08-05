@@ -1,0 +1,361 @@
+[
+  {
+    "subjectName": "APU (1°)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-12",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-12",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "AULA 28 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 12 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "classroom": "AULA 22 (Virtual)",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-5",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "AULA 18 (Presencial/Virtual)",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-11",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-5",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-11",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-22",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:30",
+        "endTime": "19:30",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-6",
+        "commission": "P1",
+        "group": "P1",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "18:30",
+        "endTime": "20:30",
+        "classroom": "(Virtual) https://bit.ly/FI-SALON-6",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:30",
+        "classroom": "AULA 11 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-5",
+        "commission": "C3",
+        "group": "C3",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-6",
+        "commission": "C4",
+        "group": "C4",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-4",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "AULA 11 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "11:00",
+        "endTime": "14:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-4",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-5",
+        "commission": "P1",
+        "group": "P1",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "(Virtual) https://bit.ly/FI-ANFITEATRO",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 28 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-5",
+        "commission": "P1",
+        "group": "P1",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-15",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "AULA 11 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-4",
+        "commission": "C3",
+        "group": "C3",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-18",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "16:30",
+        "endTime": "18:30",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "P2",
+        "group": "P2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-5",
+        "commission": "P2",
+        "group": "P2",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "18:00",
+        "endTime": "21:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-4",
+        "commission": "C4",
+        "group": "C4",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 24 (Virtual)",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "09:00",
+        "endTime": "11:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-12",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "09:00",
+        "endTime": "11:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "11:30",
+        "endTime": "13:30",
+        "classroom": "AULA 12 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "(Virtual) https://bit.ly/FI-LABORATORIO-5",
+        "commission": "P2",
+        "group": "P2",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "16:30",
+        "endTime": "18:30",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-11",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      }
+    ]
+  }
+]

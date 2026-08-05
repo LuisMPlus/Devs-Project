@@ -1,0 +1,881 @@
+[
+  {
+    "subjectName": "I.Ind(2°), I.Inf(2°), L.Sis (2°), L.TA (2°)",
+    "cod": 1,
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 31 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 31 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LTA(2°), CUNT, LCG(1°), TUCTOP, TUCT, TUP",
+    "cod": 2,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "C1P",
+        "group": "C1P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "C1P",
+        "group": "C1P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:30",
+        "endTime": "17:30",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T1",
+        "group": "T1",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:30",
+        "endTime": "17:30",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T1",
+        "group": "T1",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "C2P",
+        "group": "C2P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "C2P",
+        "group": "C2P",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.QCA (2°), L.TA(2°), Convenio UNT(2°)",
+    "cod": 3,
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "08:30",
+        "endTime": "11:30",
+        "classroom": "Por definir",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:30",
+        "endTime": "11:30",
+        "classroom": "Por definir",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 12 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 12 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:30",
+        "endTime": "11:30",
+        "classroom": "Por definir",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:30",
+        "endTime": "11:30",
+        "classroom": "Por definir",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "commission": "C3",
+        "group": "C3",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "commission": "C3",
+        "group": "C3",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "AULA 12 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "AULA 12 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "L.Sis(4°), LTA(2°/seminario), I.Qca(optativa), I.Inf(Optativa)",
+    "cod": 4,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 22 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 22 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 22 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "L.TA(3°)",
+    "cod": 5,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "12:00",
+        "classroom": "Por definir",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "10:30",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "12:00",
+        "classroom": "Por definir",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "10:30",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 19 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 19 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 21 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 21 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "14:30",
+        "endTime": "17:30",
+        "classroom": "Por definir",
+        "commission": "L",
+        "group": "L",
+        "classType": "L",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "14:30",
+        "endTime": "17:30",
+        "classroom": "Por definir",
+        "commission": "L",
+        "group": "L",
+        "classType": "L",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "classroom": "AULA 31 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "classroom": "AULA 31 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Por definir",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Por definir",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 31 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "AULA 27 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 31 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "AULA 27 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "AULA 21 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "AULA 21 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "10:30",
+        "classroom": "Aula 31 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "10:30",
+        "classroom": "Aula 31 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 16 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 16 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "L.TA(4°)",
+    "cod": 6,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "12:00",
+        "classroom": "Por definir",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "10:30",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "12:00",
+        "classroom": "Por definir",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "10:30",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 19 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 19 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 21 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 21 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "14:30",
+        "endTime": "17:30",
+        "classroom": "Por definir",
+        "commission": "L",
+        "group": "L",
+        "classType": "L",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "14:30",
+        "endTime": "17:30",
+        "classroom": "Por definir",
+        "commission": "L",
+        "group": "L",
+        "classType": "L",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "classroom": "AULA 31 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "classroom": "AULA 31 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Por definir",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Por definir",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 31 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "AULA 27 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 31 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "AULA 27 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "AULA 21 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "AULA 21 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "10:30",
+        "classroom": "Aula 31 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "10:30",
+        "classroom": "Aula 31 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 16 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 16 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Min, I.Ind, I.Inf, I.Qca, LCG, L.Sis, LTA, TUCT, TUCTOP, TUEM, TUP, TUPM",
+    "cod": 7,
+    "schedules": [
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  }
+]

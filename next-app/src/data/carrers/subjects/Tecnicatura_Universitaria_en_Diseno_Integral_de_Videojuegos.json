@@ -1,0 +1,54 @@
+[
+  {
+    "cod": 1,
+    "name": "TUDIVJ (1°)",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 2,
+    "name": "1er año TUDIVJ",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 3,
+    "name": "TUDIVJ (2°)",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 4,
+    "name": "TUDIVJ (3°)",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  }
+]

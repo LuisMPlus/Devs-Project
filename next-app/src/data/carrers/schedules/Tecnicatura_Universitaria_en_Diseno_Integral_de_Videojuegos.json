@@ -1,0 +1,880 @@
+[
+  {
+    "subjectName": "TUDIVJ (1°)",
+    "cod": 1,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      }
+    ]
+  },
+  {
+    "subjectName": "1er año TUDIVJ",
+    "cod": 2,
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "(Virtual) https://bit.ly/FI-SALON-5",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "11:30",
+        "classroom": "AULA 28",
+        "modality": "AULA 28"
+      }
+    ]
+  },
+  {
+    "subjectName": "TUDIVJ (2°)",
+    "cod": 3,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      }
+    ]
+  },
+  {
+    "subjectName": "TUDIVJ (3°)",
+    "cod": 4,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "(Virtual) https://bit.ly/FI-AULA-28",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "Aula 28 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual) https://bit.ly/FI-DISENIODEVIDEOJUEGOS",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      }
+    ]
+  }
+]

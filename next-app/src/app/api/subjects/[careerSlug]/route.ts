@@ -4,9 +4,9 @@ import path from 'path'
 
 // Map of career slugs to their JSON data files (relative to project root).
 const CAREER_FILE_MAP: Record<string, string> = {
-  'computer-engineering': 'src/data/carrers/computerEngineeringSubjects.json',
-  'bachelor-in-systems':  'src/data/carrers/bachelorInSystemsSubjects.json',
-  'apu':                  'src/data/carrers/APU-Subjects.json',
+  'computer-engineering': 'src/data/carrers/subjects/Ingenieria_Informatica.json',
+  'bachelor-in-systems':  'src/data/carrers/subjects/Licenciatura_en_Sistemas.json',
+  'apu':                  'src/data/carrers/subjects/Analista_Programador_Universitario.json',
 }
 
 export async function GET(

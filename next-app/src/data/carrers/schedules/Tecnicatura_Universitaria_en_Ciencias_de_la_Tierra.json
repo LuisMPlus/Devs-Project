@@ -1,0 +1,364 @@
+[
+  {
+    "subjectName": "LCG(2°), TUCT(2°), TUCTOP(2°)",
+    "cod": 1,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "14:30",
+        "endTime": "17:30",
+        "classroom": "AULA 25/26 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 23 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 25/26 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 26 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LCG(2°), TUCT(2°)",
+    "cod": 2,
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 24 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 22 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 24 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "TUCTOP(2°), TUP(2°)",
+    "cod": 3,
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "AULA 22 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Min(2° y 3°), TUPM(2°)",
+    "cod": 4,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "15:00",
+        "endTime": "18:00",
+        "classroom": "AULA 27 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LCG(2°), TUCTOP(2°), TUCT(2°)",
+    "cod": 5,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "14:30",
+        "endTime": "17:30",
+        "classroom": "AULA 25/26 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 23 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 25/26 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 26 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Inf(2°), L.Sis(2°), TUCT(2°)",
+    "cod": 6,
+    "schedules": [
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 14 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "(Virtual https://bit.ly/FI-SALON-8)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 11 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LCG(3°), TUCT(3°), TUP(3°), TUCTOP(2°)",
+    "cod": 7,
+    "schedules": [
+      {
+        "day": "Viernes",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "classroom": "AULA 23 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LCG(3°), TUCT(3°)",
+    "cod": 8,
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 24 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 22 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 24 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LCG(3°), TUCT(3°), TUCTOP(3°)",
+    "cod": 9,
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "14:30",
+        "endTime": "17:30",
+        "classroom": "AULA 25/26 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 23 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "classroom": "AULA 25/26 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 26 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Min, I.Ind, I.Inf, I.Qca, LCG, L.Sis, LTA, TUCT, TUCTOP, TUEM, TUP, TUPM",
+    "cod": 10,
+    "schedules": [
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LCG, TUCT, TUCTOP, TUP",
+    "cod": 11,
+    "schedules": [
+      {
+        "day": "Viernes",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "classroom": "AULA 23 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LCG(2°), TUCTOP(2°), TUCT(2°)",
+    "schedules": [
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "12:00",
+        "classroom": "AULA 20 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "LCG, TUCT, TUCTOP, TUP",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "15:00",
+        "endTime": "16:30",
+        "classroom": "(Virtual https://bit.ly/FI-AULA-23)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "20:00",
+        "endTime": "21:30",
+        "classroom": "(Virtual https://bit.ly/FI-AULA-23)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "virtual"
+      }
+    ]
+  }
+]

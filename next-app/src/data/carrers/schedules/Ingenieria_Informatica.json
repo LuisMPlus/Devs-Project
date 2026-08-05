@@ -1,0 +1,1092 @@
+[
+  {
+    "subjectName": "I.Min(2°), I.Ind(2°), I.Inf(2°), I.Qca(2°), TUEM(2°), TUPM(2°)",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 26 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 26 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "18:00",
+        "endTime": "21:00",
+        "classroom": "AULA 26 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "18:00",
+        "endTime": "21:00",
+        "classroom": "AULA 26 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "L.Sis(2°), I.Inf(2° y 3°)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "18:00",
+        "endTime": "21:00",
+        "classroom": "ANFITEATRO (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "18:00",
+        "endTime": "21:00",
+        "classroom": "ANFITEATRO (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "AULA 12 (Virtual https://bit.ly/FI-AULA-12)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 14 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "classroom": "AULA 14 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "classroom": "AULA 31 (Virtual https://bit.ly/FI-AULA-31)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "classroom": "AULA 31 (Virtual https://bit.ly/FI-AULA-31)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "17:30",
+        "endTime": "20:30",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "22:00",
+        "endTime": "20:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:30",
+        "endTime": "20:30",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "C5",
+        "group": "C5",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "C3",
+        "group": "C3",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "C4",
+        "group": "C4",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Inf (3°), L.Sis (3°)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "08:00",
+        "endTime": "11:30",
+        "classroom": "(Virtual https://bit.ly/FI-SALON-5)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "10:30",
+        "endTime": "13:30",
+        "classroom": "AULA 14 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "10:30",
+        "endTime": "13:30",
+        "classroom": "AULA 14 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "classroom": "Salón 6 (Virtual https://bit.ly/FI-SALON-6)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "13:00",
+        "endTime": "16:30",
+        "classroom": "(Virtual https://bit.ly/FI-SALON-5)",
+        "commission": "C5",
+        "group": "C5",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "AULA 31 (Virtual: https://bit.ly/FI-AULA-31 )",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "classroom": "AULA 31 (Virtual: https://bit.ly/FI-AULA-31 )",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 15 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 15 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 31 (Virtual https://bit.ly/FI-AULA-31)",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 31 (Virtual https://bit.ly/FI-AULA-31)",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "20:30",
+        "endTime": "22:30",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "20:30",
+        "endTime": "22:30",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "AULA 15 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "AULA 15 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "13:00",
+        "endTime": "20:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "AULA 17 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "AULA 17 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 17 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 17 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "16:00",
+        "endTime": "19:00",
+        "classroom": "AULA 14 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Virtual: https://bit.ly/FI-SALON-7",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "16:00",
+        "endTime": "19:00",
+        "classroom": "AULA 14 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Virtual: https://bit.ly/FI-SALON-7",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:30",
+        "endTime": "18:30",
+        "classroom": "Salón 6 (Virtual https://bit.ly/FI-SALON-6)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "16:30",
+        "endTime": "19:00",
+        "classroom": "ANFITEATRO",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "ANFITEATRO"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 18 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "AULA 11 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "AULA 11 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "11:30",
+        "classroom": "(Virtual https://bit.ly/FI-SALON-5)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "11:00",
+        "endTime": "14:30",
+        "classroom": "(Virtual https://bit.ly/FI-SALON-6)",
+        "commission": "C3",
+        "group": "C3",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "11:00",
+        "endTime": "14:30",
+        "classroom": "(Virtual https://bit.ly/FI-SALON-7)",
+        "commission": "C4",
+        "group": "C4",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "15:30",
+        "endTime": "18:30",
+        "classroom": "Salón 6 (Virtual https://bit.ly/FI-SALON-6)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "Por definir",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Inf(2° y 3°), L.Sis(3°), I.Min(2°)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "09:00",
+        "endTime": "11:00",
+        "classroom": "SALÓN 4 (Virtual: https://bit.ly/FI-SALON-4)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "09:00",
+        "endTime": "11:00",
+        "classroom": "SALÓN 4 (Virtual: https://bit.ly/FI-SALON-4)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "SALÓN 4 (Virtual: https://bit.ly/FI-SALON-4)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "classroom": "SALÓN 4 (Virtual: https://bit.ly/FI-SALON-4)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Inf(2°), L.Sis(2°), TUCT(2°)",
+    "schedules": [
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 14 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 14 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "(Virtual https://bit.ly/FI-SALON-8)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "11:00",
+        "endTime": "13:00",
+        "classroom": "(Virtual https://bit.ly/FI-SALON-8)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 11 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "Aula 11 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Inf,(3°) 2° L.Sis(4° y 5°)",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "classroom": "Salón 7 (Virtual: https://bit.ly/FI-SALON-7 )",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "classroom": "Salón 7 (Virtual: https://bit.ly/FI-SALON-7 )",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Inf(3° y 4°)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "19:00",
+        "classroom": "Aula 14 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "16:00",
+        "endTime": "19:00",
+        "classroom": "Aula 14 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual https://bit.ly/FI-LABORATORIO-6)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Martes",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual https://bit.ly/FI-LABORATORIO-6)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "virtual"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 22 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 22 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "22:00",
+        "endTime": "20:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 27 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 27 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "Aula 12 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "Aula 12 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual https://bit.ly/FI-LABORATORIO-6)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "classroom": "(Virtual https://bit.ly/FI-LABORATORIO-6)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "virtual"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Inf(4°), I.Ind(electiva), L.Sis(2°)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "classroom": "AULA 15 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Martes",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "AULA 18 (Presencial)",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "08:00",
+        "endTime": "11:00",
+        "classroom": "AULA 17 (Presencial)",
+        "commission": "TP",
+        "group": "TP",
+        "classType": "TP",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Min, I.Ind, I.Inf, I.Qca, LCG, L.Sis, LTA, TUCT, TUCTOP, TUEM, TUP, TUPM",
+    "schedules": [
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C1",
+        "group": "C1",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Jueves",
+        "startTime": "10:00",
+        "endTime": "12:00",
+        "classroom": "Aula 24 (Presencial)",
+        "commission": "C2",
+        "group": "C2",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Inf(optativa), I.Min(optativa)",
+    "schedules": [
+      {
+        "day": "Martes",
+        "startTime": "13:00",
+        "endTime": "20:00",
+        "classroom": "Por definir",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "Por definir",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "classroom": "Por definir",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "14:30",
+        "endTime": "16:30",
+        "classroom": "Por definir",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "14:30",
+        "endTime": "16:30",
+        "classroom": "Por definir",
+        "commission": "P",
+        "group": "P",
+        "classType": "P",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "L.Sis(4°), LTA(2°/seminario), I.Qca(optativa), I.Inf(Optativa)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "classroom": "AULA 22 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "L.CG(opt), I.Qca(opt), I.Inf(opt), I.Ind(opt), I.Min(opt)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "10:30",
+        "endTime": "12:00",
+        "classroom": "Aula 27 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Lunes",
+        "startTime": "10:30",
+        "endTime": "12:00",
+        "classroom": "Aula 27 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "10:30",
+        "endTime": "12:00",
+        "classroom": "Aula 27 (Presencial)",
+        "modality": "presencial"
+      },
+      {
+        "day": "Viernes",
+        "startTime": "10:30",
+        "endTime": "12:00",
+        "classroom": "Aula 27 (Presencial)",
+        "modality": "presencial"
+      }
+    ]
+  },
+  {
+    "subjectName": "I.Ind(3°), I.Inf(3°), L.Sis(3°)",
+    "schedules": [
+      {
+        "day": "Lunes",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "classroom": "AULA 11 (Presencial)",
+        "commission": "T",
+        "group": "T",
+        "classType": "T",
+        "modality": "presencial"
+      },
+      {
+        "day": "Miércoles",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "classroom": "AULA 12 (Presencial)",
+        "commission": "S",
+        "group": "S",
+        "classType": "S",
+        "modality": "presencial"
+      }
+    ]
+  }
+]

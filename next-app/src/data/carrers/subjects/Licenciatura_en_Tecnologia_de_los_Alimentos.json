@@ -1,0 +1,93 @@
+[
+  {
+    "cod": 1,
+    "name": "I.Ind(2°), I.Inf(2°), L.Sis (2°), L.TA (2°)",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 2,
+    "name": "LTA(2°), CUNT, LCG(1°), TUCTOP, TUCT, TUP",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 3,
+    "name": "I.QCA (2°), L.TA(2°), Convenio UNT(2°)",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 4,
+    "name": "L.Sis(4°), LTA(2°/seminario), I.Qca(optativa), I.Inf(Optativa)",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 5,
+    "name": "L.TA(3°)",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 6,
+    "name": "L.TA(4°)",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 7,
+    "name": "I.Min, I.Ind, I.Inf, I.Qca, LCG, L.Sis, LTA, TUCT, TUCTOP, TUEM, TUP, TUPM",
+    "year": 1,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  }
+]
