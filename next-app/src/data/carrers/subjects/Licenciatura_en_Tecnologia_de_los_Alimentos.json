@@ -1,11 +1,12 @@
 [
   {
     "cod": 1,
-    "name": "I.Ind(2°), I.Inf(2°), L.Sis (2°), L.TA (2°)",
+    "name": "Introducción al Estudio de los Alimentos",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/13iSp95BlsVnhdZOMNanTTBCUa1otTFeK?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -14,11 +15,12 @@
   },
   {
     "cod": 2,
-    "name": "LTA(2°), CUNT, LCG(1°), TUCTOP, TUCT, TUP",
+    "name": "Álgebra y Geometría Analítica",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1A_Kgwta-Q9v7EV49782xeStreuXV23Ed?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -27,11 +29,12 @@
   },
   {
     "cod": 3,
-    "name": "I.QCA (2°), L.TA(2°), Convenio UNT(2°)",
+    "name": "Análisis Matemático",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/16SjN2vqRifeIuqWtZlJ5ee3TUn5HWgnP?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -40,11 +43,12 @@
   },
   {
     "cod": 4,
-    "name": "L.Sis(4°), LTA(2°/seminario), I.Qca(optativa), I.Inf(Optativa)",
+    "name": "Física I",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1hbEMSkKkIqTalR3ZlSrfXCyQWRRo5MfL?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -53,11 +57,14 @@
   },
   {
     "cod": 5,
-    "name": "L.TA(3°)",
+    "name": "Química I",
     "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "semester": 2,
+    "prerequisites": [
+      1
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1xPaVIsBGAdcAR4qv1YXuELYTrQ5SDJxb?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -66,11 +73,15 @@
   },
   {
     "cod": 6,
-    "name": "L.TA(4°)",
+    "name": "Física II",
     "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "semester": 2,
+    "prerequisites": [
+      3,
+      4
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1PfNY4W-gYuPwNU0ydzkKHHjXQdnfTNlO?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -79,11 +90,404 @@
   },
   {
     "cod": 7,
-    "name": "I.Min, I.Ind, I.Inf, I.Qca, LCG, L.Sis, LTA, TUCT, TUCTOP, TUEM, TUP, TUPM",
+    "name": "Epistemología de las Ciencias",
     "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "semester": 2,
+    "prerequisites": [
+      1,
+      4
+    ],
     "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 8,
+    "name": "Química Orgánica I",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      2,
+      5
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1rISBzLi2BCPN3CXjuHpEz52EzbSTCU4b?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 9,
+    "name": "Introducción a la Biología Celular",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      5
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1AD0_GMMBDjkWPheqdOcklV7c1SHMVDD_?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 10,
+    "name": "Química II",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      5
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 11,
+    "name": "Matemática y Computación",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      1,
+      3
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1G7iiRdJaEmDzJQLv40H_gZfm468uxGKJ?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 12,
+    "name": "Estadística",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      11
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1Z4gBEYsM7kcLBfcA62GWwhdiG_7OAHJM?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 13,
+    "name": "Física III",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      6
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1A-Ig112gYng8mrMvrLFkVpgFTbaAEaTC?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 14,
+    "name": "Química Orgánica II",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      8
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1IWE8JFtXndHPdZLf8-qdJXMNX-uAlqYg?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 15,
+    "name": "Metodología de la Investigación Científica",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      7,
+      8
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 16,
+    "name": "Bioquímica de los Alimentos I",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      9,
+      14,
+      "R1"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1gJSRyNIUl59cAN5gXSAes3Ir8c5-axbG?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 17,
+    "name": "Fisicoquímica",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      10,
+      13
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1J8AGWR3pdiZu9cd9BnsSd-HvGkIuB8iC?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 18,
+    "name": "Microbiología General y de los Alimentos I",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      8,
+      13
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 19,
+    "name": "Química Analítica y Análisis de los Alimentos I",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      10,
+      12,
+      "R1"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1PO8y8TnqUfOcsmlO5Xnp2YcjXvhweQad?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 20,
+    "name": "Fenómenos de Transporte",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      6,
+      11,
+      "R1"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1RbaXoHpqCQ8PIrbobzSJELFHI1gGtVK3?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 21,
+    "name": "Bioquímica de los Alimentos II",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      15,
+      16
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1E27iQL8S9ksaroKBMRhwEtArzddUKQm7?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 22,
+    "name": "Microbiología General y de los Alimentos II",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      18
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 23,
+    "name": "Química Analítica y Análisis de los Alimentos II",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      19
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1wFGZTTu8Bw-E0f1TDkgmyR3hoGC45VOL?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 24,
+    "name": "Operaciones Básicas de los Alimentos",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      20
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1wBs77ek6CKugMsUqmuz2rFUon02nCeVf?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 25,
+    "name": "Materiales y Equipos",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      14,
+      17
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 26,
+    "name": "Tecnología de los Alimentos I",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      17,
+      21,
+      24
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1B9-htgLM0Ptgzwa2FFLKrCkap0OxlBkV?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 27,
+    "name": "Higiene y Seguridad Ambiental",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      22,
+      23
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 28,
+    "name": "Calidad de los Alimentos",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      21,
+      22,
+      "R2"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1vQZuqk068DMl0-gHLKxid_ySM3EBYCA-?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 29,
+    "name": "Tecnología de los Alimentos II",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      22,
+      26,
+      "R2"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1HibkbN97vJEbPy0hlYWcXA2PB3AXQ8UG?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 30,
+    "name": "Formación Profesional",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      15,
+      16
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",

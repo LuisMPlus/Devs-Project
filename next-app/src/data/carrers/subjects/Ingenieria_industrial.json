@@ -29,12 +29,12 @@
   },
   {
     "cod": 3,
-    "name": "Fundamentos de Química",
+    "name": "Introducción a la Ing. Industrial",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=465",
-    "syllabusUrl": "https://drive.google.com/drive/folders/19KfZmzsGEokByf0tw-Std9NM-1OxumnK?usp=sharing",
+    "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -57,12 +57,12 @@
   },
   {
     "cod": 5,
-    "name": "Introducción a la Ingeniería Química",
+    "name": "Química I",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/18eofB2BDed4fvwATHGAJM6cZ5-C56tG6?usp=sharing",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=465",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1xPaVIsBGAdcAR4qv1YXuELYTrQ5SDJxb?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -71,56 +71,6 @@
   },
   {
     "cod": 6,
-    "name": "Geometría Analítica",
-    "year": 1,
-    "semester": 2,
-    "prerequisites": [
-      1,
-      2
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1APG9J82pA0klG9E9FCnPZnOZYwXzfk7E?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 7,
-    "name": "Análisis Matemático II",
-    "year": 1,
-    "semester": 2,
-    "prerequisites": [
-      1,
-      2
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1gSsN02TW-qncsQyrLrNqpY9fMDWvjUEg?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 8,
-    "name": "Química General e Inorgánica",
-    "year": 1,
-    "semester": 2,
-    "prerequisites": [
-      3
-    ],
-    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2957",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1OHNXTjZLl5moPRSPPZPhWthTNDl-Wd8b?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 9,
     "name": "Física I",
     "year": 1,
     "semester": 2,
@@ -137,16 +87,66 @@
     "description": ""
   },
   {
-    "cod": 10,
-    "name": "Probabilidad y Estadística",
+    "cod": 7,
+    "name": "Geometría Analítica",
     "year": 1,
     "semester": 2,
     "prerequisites": [
-      2,
-      4
+      1,
+      2
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1APG9J82pA0klG9E9FCnPZnOZYwXzfk7E?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 8,
+    "name": "Análisis Matemático II",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      1,
+      2
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1gSsN02TW-qncsQyrLrNqpY9fMDWvjUEg?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 9,
+    "name": "Química II",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      5
     ],
     "classroomUrl": "",
     "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 10,
+    "name": "Estática y Resistencia de los Materiales I",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      2,
+      6
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -159,7 +159,7 @@
     "year": 2,
     "semester": 1,
     "prerequisites": [
-      9
+      6
     ],
     "classroomUrl": "",
     "syllabusUrl": "https://drive.google.com/drive/folders/1PfNY4W-gYuPwNU0ydzkKHHjXQdnfTNlO?usp=sharing",
@@ -171,29 +171,12 @@
   },
   {
     "cod": 12,
-    "name": "Química Orgánica I",
-    "year": 2,
-    "semester": 1,
-    "prerequisites": [
-      8
-    ],
-    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=248",
-    "syllabusUrl": "https://drive.google.com/open?id=1ZLM8SE5yRgAEONZDGxxjH-dCZ7GlOe9u",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 13,
     "name": "Análisis Matemático III",
     "year": 2,
     "semester": 1,
     "prerequisites": [
-      1,
-      6,
-      7
+      7,
+      8
     ],
     "classroomUrl": "",
     "syllabusUrl": "https://drive.google.com/drive/folders/1iCau536oFo8SAcQt4jZTHERDWtvtPx2h?usp=sharing",
@@ -204,16 +187,32 @@
     "description": ""
   },
   {
-    "cod": 14,
-    "name": "Economía, Dirección y Organización de Empresas",
+    "cod": 13,
+    "name": "Probabilidad y Estadística",
     "year": 2,
     "semester": 1,
     "prerequisites": [
-      1,
       7,
-      9
+      8
     ],
-    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=502",
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 14,
+    "name": "Estática y Resistencia de los Materiales II",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      3,
+      10
+    ],
+    "classroomUrl": "",
     "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
@@ -223,44 +222,11 @@
   },
   {
     "cod": 15,
-    "name": "Matemática Superior",
-    "year": 2,
-    "semester": 2,
-    "prerequisites": [
-      13
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/10PSHegPtx3v3cavgHYpgxRdsGcbvrbPI?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 16,
-    "name": "Termodinámica",
-    "year": 2,
-    "semester": 2,
-    "prerequisites": [
-      7,
-      8,
-      11
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": null,
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 17,
     "name": "Física III",
     "year": 2,
     "semester": 2,
     "prerequisites": [
+      7,
       11
     ],
     "classroomUrl": "",
@@ -272,15 +238,17 @@
     "description": ""
   },
   {
-    "cod": 18,
-    "name": "Química Orgánica II",
+    "cod": 16,
+    "name": "Programación Aplicada",
     "year": 2,
     "semester": 2,
     "prerequisites": [
-      12
+      1,
+      8,
+      4
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1IWE8JFtXndHPdZLf8-qdJXMNX-uAlqYg?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1BcQwN450w3vn3kcu3JeFL0rq1NqBmXiH?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -288,31 +256,14 @@
     "description": ""
   },
   {
-    "cod": 19,
-    "name": "Química Analítica General",
-    "year": 3,
-    "semester": 1,
+    "cod": 17,
+    "name": "Termodinámica y Máquinas Térmicas",
+    "year": 2,
+    "semester": 2,
     "prerequisites": [
-      12,
-      1
-    ],
-    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=2533",
-    "syllabusUrl": "https://drive.google.com/drive/folders/193h9RrdsssUZNbmVGhO-YSjNBXkAUEEU?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 20,
-    "name": "Medios de Representación",
-    "year": 3,
-    "semester": 1,
-    "prerequisites": [
-      4,
-      6,
-      1
+      5,
+      7,
+      11
     ],
     "classroomUrl": "",
     "syllabusUrl": null,
@@ -323,17 +274,68 @@
     "description": ""
   },
   {
-    "cod": 21,
-    "name": "Fenómenos de Transporte",
+    "cod": 18,
+    "name": "Costos Industriales",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      4,
+      13,
+      "R1"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1nlBSYGv4PdEC5iIjeupUeYePgDIY0dbb?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 19,
+    "name": "Economía y Dirección de Empresas",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      13,
+      "R1"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1XLhZdKYJmSAhnHXkgCGWzI7jCDO8MS0Z?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 20,
+    "name": "Electrotecnia",
     "year": 3,
     "semester": 1,
     "prerequisites": [
       15,
-      16,
-      1
+      "R1"
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1RbaXoHpqCQ8PIrbobzSJELFHI1gGtVK3?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1KSbZY0GfzrkgzSqQbkKLHOnhYDSIrUfF?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 21,
+    "name": "Organización de la Producción",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      13,
+      "R1"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1kJNDBv6H6agfkUxkKLu0eNnE04kVpb8J?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -342,15 +344,15 @@
   },
   {
     "cod": 22,
-    "name": "Fisicoquímica",
+    "name": "Investigación Operativa I",
     "year": 3,
     "semester": 1,
     "prerequisites": [
-      16,
-      1
+      13,
+      "R1"
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1J8AGWR3pdiZu9cd9BnsSd-HvGkIuB8iC?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1-pDI7yGTg_yF79jnj2rrSzpyRaeRjqNv?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -359,16 +361,17 @@
   },
   {
     "cod": 23,
-    "name": "Ingeniería de los Servicios",
+    "name": "Ingeniería de los Materiales",
     "year": 3,
     "semester": 2,
     "prerequisites": [
-      21,
-      22,
-      1
+      5,
+      11,
+      14,
+      "R1"
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1gdxL4nY3-b_gfxhDj--QbJSaYZgLl1Zh?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1QEtme3lB4l3rfI-Pmwpdrj3K5ilSKlT2?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -377,14 +380,16 @@
   },
   {
     "cod": 24,
-    "name": "Química Analítica Instrumental",
+    "name": "Organización de Empresas",
     "year": 3,
     "semester": 2,
     "prerequisites": [
-      19
+      13,
+      19,
+      "R1"
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1RGsvHQYuIglC7xBe9S_5M09_lPLOzOYi?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1QEtme3lB4l3rfI-Pmwpdrj3K5ilSKlT2?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -393,15 +398,15 @@
   },
   {
     "cod": 25,
-    "name": "Tecnología Mecánica",
+    "name": "Investigación Operativa II",
     "year": 3,
     "semester": 2,
     "prerequisites": [
-      17,
-      20
+      22,
+      "R1"
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/10vbE7BPBiFZ7EQGCz6kbZnVmiFja0F5D?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1eWncr2ZtqbJhPKfBAU7v4dmlMBr9t8e5?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -410,15 +415,15 @@
   },
   {
     "cod": 26,
-    "name": "Operaciones Unitarias I",
+    "name": "Medios de Representación I",
     "year": 3,
     "semester": 2,
     "prerequisites": [
-      21,
-      22
+      3,
+      14
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1LZzBr3TM6sQmrZqgG_jmZtLSu-QghLGy?usp=sharing",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -427,15 +432,14 @@
   },
   {
     "cod": 27,
-    "name": "Electricidad y Electrónica",
-    "year": 3,
-    "semester": 2,
+    "name": "Medios de Representación II",
+    "year": 4,
+    "semester": 1,
     "prerequisites": [
-      17,
-      1
+      26
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1AmsWe4OYsUgooy3MAvKwPWExXxaTmguv?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1BdSg2-RhoeISkpAe4yw8rHDqDTt-MCpO?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -444,15 +448,18 @@
   },
   {
     "cod": 28,
-    "name": "Ingeniería de las Reacciones Químicas I",
+    "name": "Instalaciones y Control",
     "year": 4,
     "semester": 1,
     "prerequisites": [
-      22,
-      2
+      4,
+      14,
+      20,
+      13,
+      "R2"
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1oq2cehc_vx5NFgSxrS70_ec237fXWKx8?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1PPO6Hnat8Gk6nfGl9KS0LQE3Dycwa3AM?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -461,17 +468,15 @@
   },
   {
     "cod": 29,
-    "name": "Instrumentación de Procesos",
+    "name": "Mecánica de los Fluidos",
     "year": 4,
     "semester": 1,
     "prerequisites": [
-      24,
-      26,
-      27,
-      2
+      17,
+      "R2"
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1WMeVgDPBbi3VQq5SJYqt3jfDih7e7hqt?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1GcMEb5PP-KVr6Igauos4tZe1qHU6YCGW?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -480,62 +485,12 @@
   },
   {
     "cod": 30,
-    "name": "Operaciones Unitarias II",
-    "year": 4,
-    "semester": 1,
-    "prerequisites": [
-      26,
-      2
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1cHSlZFW_exxVsTx408-x7pgioRdso7Mo?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 31,
-    "name": "Materiales para Ingeniería",
-    "year": 4,
-    "semester": 1,
-    "prerequisites": [
-      26,
-      25,
-      "R2"
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 32,
-    "name": "Ingeniería de la Producción y la Empresa",
-    "year": 4,
-    "semester": 1,
-    "prerequisites": [
-      4
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1VJAPXFPu9mxeAye_DhjUgf4nFVVi2dzc?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 33,
     "name": "Higiene y Seguridad del Trabajo",
     "year": 4,
     "semester": 1,
     "prerequisites": [
-      4
+      24,
+      "R2"
     ],
     "classroomUrl": "",
     "syllabusUrl": "https://drive.google.com/drive/folders/1iO1K8FzcTjrlacyZdUqtIJxpd9i6auoX?usp=sharing",
@@ -546,15 +501,73 @@
     "description": ""
   },
   {
-    "cod": 34,
-    "name": "Operaciones Unitarias III",
+    "cod": 31,
+    "name": "Sistemas de Información para la Gestión",
     "year": 4,
     "semester": 2,
     "prerequisites": [
-      30
+      16,
+      24,
+      "R2"
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/18sGNZNIJ3NTafbI6klk-z33uVctcEeoV?usp=sharing",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1WMVWHJ5FLTZipBemsOnh2YcYFZEZIHtZ?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 32,
+    "name": "Ingeniería Legal, Ética y Ejercicio Profesional",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      3,
+      24,
+      "R2"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 33,
+    "name": "Mecánica y Mecanismos",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      4,
+      14,
+      20,
+      23,
+      "R2"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1K1OHS9k26FAGDeT8-Qf6aCwUTzMGYCm_?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 34,
+    "name": "Ingeniería y Gestión Ambiental",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      30,
+      32,
+      "R2"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -563,14 +576,12 @@
   },
   {
     "cod": 35,
-    "name": "Control de Procesos",
+    "name": "Materias Electivas",
     "year": 4,
     "semester": 2,
-    "prerequisites": [
-      29
-    ],
+    "prerequisites": [],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1ydfT6AjvkqkDP4Q4XT5xtJjKrwFdanPg?usp=sharing",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -579,95 +590,15 @@
   },
   {
     "cod": 36,
-    "name": "Ingeniería de las Reacciones Químicas II",
-    "year": 4,
-    "semester": 2,
-    "prerequisites": [
-      28
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1UqkydRHQmiM6BYbEGt4HEuxoR1VEzjSN?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 37,
-    "name": "Ingeniería y Gestión Ambiental",
-    "year": 4,
-    "semester": 2,
-    "prerequisites": [
-      33
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": null,
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 38,
-    "name": "Ingeniería Legal y Ética Profesional",
-    "year": 4,
-    "semester": 2,
-    "prerequisites": [
-      4
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": null,
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 39,
-    "name": "Gestión de la Calidad",
-    "year": 4,
-    "semester": 2,
-    "prerequisites": [
-      4
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": null,
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 40,
-    "name": "Bioingeniería",
-    "year": 5,
-    "semester": 1,
-    "prerequisites": [
-      18,
-      26,
-      36
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1pl5wdE5wzL7Mhpv9MaFPdUoMqtwjYoe_?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 41,
     "name": "Formulación y Evaluación de Proyectos",
     "year": 5,
     "semester": 1,
     "prerequisites": [
-      34,
-      35,
-      36
+      19,
+      21,
+      22,
+      25,
+      "R2"
     ],
     "classroomUrl": "",
     "syllabusUrl": "https://drive.google.com/drive/folders/1J7m8lIg-KHuRzKSpHvCrUeeKzyvbAnHE?usp=sharing",
@@ -678,17 +609,84 @@
     "description": ""
   },
   {
-    "cod": 42,
-    "name": "Simulación y Optimización de Procesos",
+    "cod": 37,
+    "name": "Administración de las operaciones industriales",
     "year": 5,
     "semester": 1,
     "prerequisites": [
-      34,
-      35,
+      18,
+      21,
+      "R2"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1YPq9ewgMvLtoQZCwGzqswTQ09dmKuoR3?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 38,
+    "name": "Materias Electivas",
+    "year": 5,
+    "semester": 1,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 39,
+    "name": "Edificios Industriales",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      18,
+      23,
+      28,
+      32
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1ZI-OSHEyKH26XTSGnmr3dq_ku9lm661j?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 40,
+    "name": "Operaciones Industriales",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      29,
+      33
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1jC099TDx2xXg48lyz8E7HajSq4DpIfhe?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 41,
+    "name": "Gestión empresaria de la calidad",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      24,
       36
     ],
     "classroomUrl": "",
-    "syllabusUrl": null,
+    "syllabusUrl": "https://drive.google.com/drive/folders/10o-dCArxYzeAtBB6w8uYXSTkYUGSEdzw?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -696,39 +694,8 @@
     "description": ""
   },
   {
-    "cod": 43,
-    "name": "Cursos Optativos",
-    "year": 5,
-    "semester": 1,
-    "prerequisites": [],
-    "classroomUrl": "",
-    "syllabusUrl": null,
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 44,
-    "name": "Ingeniería de Procesos",
-    "year": 5,
-    "semester": 2,
-    "prerequisites": [
-      41,
-      42
-    ],
-    "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/17siwHtpXiUxLJKTUNbZfyDr9gk5CYjHN?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "mandatory",
-    "description": ""
-  },
-  {
-    "cod": 45,
-    "name": "Cursos Optativos",
+    "cod": 42,
+    "name": "Materias Electivas",
     "year": 5,
     "semester": 2,
     "prerequisites": [],
@@ -741,12 +708,111 @@
     "description": ""
   },
   {
-    "cod": 46,
-    "name": "Industria del Litio",
+    "cod": "E1",
+    "name": "Diseño I",
     "year": null,
     "semester": null,
     "prerequisites": [
-      26,
+      26
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E2",
+    "name": "Diseño II",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      1,
+      "E1"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1qRCqLeNu7aMob3GhtYmNGsVrZjzNE6uq?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E3",
+    "name": "Tecnologías de Fabricación",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      23,
+      26
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E4",
+    "name": "Sistemas Administrativos",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      19,
+      24
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E5",
+    "name": "Redes y Telecomunicaciones",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      4
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=35",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1MsDsGlKiK7fqiUH1LOVPmQdY1e9gJyLx?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E6",
+    "name": "Programación Avanzada",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      16
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1UCIraYiEbj2my0vOtAk_gtpj6_nB-LqD?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E7",
+    "name": "Introducción a la Tecnología Alimentaria",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      17,
       29
     ],
     "classroomUrl": "",
@@ -758,15 +824,49 @@
     "description": ""
   },
   {
-    "cod": 47,
-    "name": "Energías No Convencionales",
+    "cod": "E8",
+    "name": "Industrias Alimentarias I",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      9,
+      17
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1lQeYCHxGneD5DnUDcRLVQhf6DFbCnvQN?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E9",
+    "name": "Industrias Alimentarias II",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      8, 
+      "E8"
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1_HxX7GwbpS6Ke9Uu8GqM_dkQhVyQsX_T?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E10",
+    "name": "Tecnología de Elaboración de Metales",
     "year": null,
     "semester": null,
     "prerequisites": [
       23
     ],
-    "classroomUrl": "",
-    "syllabusUrl": null,
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2940",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1oqglxw3s3mxuKQgcqPCVQh61SRcZLUGd?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -774,13 +874,13 @@
     "description": ""
   },
   {
-    "cod": 48,
-    "name": "Nanotecnología",
+    "cod": "E11",
+    "name": "Industrias Siderúrgicas",
     "year": null,
     "semester": null,
     "prerequisites": [
-      35,
-      42
+      17,
+      29
     ],
     "classroomUrl": "",
     "syllabusUrl": null,
@@ -791,32 +891,64 @@
     "description": ""
   },
   {
-    "cod": 49,
-    "name": "Procesos Electroquímicos",
+    "cod": "E12",
+    "name": "Metalurgia Extractiva de No Ferrosos",
     "year": null,
     "semester": null,
     "prerequisites": [
-      18,
+      17,
+      29
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1cIvLFUP2JtaD3wGYCIujsGrLCE-_8Awu?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": "E13",
+    "name": "Modelado y Proceso de Negocios",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      8
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "Se necesitan 8 materias aprobadas"
+  },
+  {
+    "cod": "E14",
+    "name": "Taller de Formación Profesional",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      8
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/10J4FRsqypJ-ODdodhQi01zmEdYAFBtGa?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": "Se necesitan 8 materias aprobadas"
+  },
+  {
+    "cod": "E15",
+    "name": "Logística",
+    "year": null,
+    "semester": null,
+    "prerequisites": [
+      21,
       24
     ],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/1WRKINM5T4S_9n3KkRNBbsYRvhNWhu6rk?usp=sharing",
-    "isOfferedBothSemesters": false,
-    "groupLink": null,
-    "drive": "",
-    "type": "optional",
-    "description": ""
-  },
-  {
-    "cod": 50,
-    "name": "Industrias 4.0",
-    "year": null,
-    "semester": null,
-    "prerequisites": [
-      32,
-      39
-    ],
-    "classroomUrl": "",
     "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
@@ -825,51 +957,61 @@
     "description": ""
   },
   {
-    "cod": 51,
-    "name": "Procesos y Negocios",
+    "cod": "R1",
+    "name": "Nivel de Suficiencia de Inglés",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "requirement",
+    "description": "Para acreditar este nivel será necesario el informe del Departamento de Idiomas que lo acredite. Los estudiantes de la Facultad de Ingeniería que lo necesiten podrán acceder a cursos y/o talleres optativos dictados por la Unidad Académica, para ello deberán tener al menos una materia aprobada."
+  },
+  {
+    "cod": "R2",
+    "name": "Nivel de Aptitud de Inglés",
     "year": null,
     "semester": null,
     "prerequisites": [
-      32
+      "R1"
     ],
     "classroomUrl": "",
     "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
-    "type": "optional",
-    "description": ""
+    "type": "requirement",
+    "description": "Para acreditar este nivel será necesario el informe del Departamento de Idiomas que lo acredite. Los estudiantes de la Facultad de Ingeniería que lo necesiten podrán acceder a cursos y/o talleres optativos dictados por la Unidad Académica, para ello deberán tener el Nivel de Suficiencia de Inglés acreditado."
   },
   {
-    "cod": 52,
-    "name": "Taller de Formación Profe",
+    "cod": "R3",
+    "name": "Práctica Profesional Supervisada",
     "year": null,
     "semester": null,
-    "prerequisites": [
-      10
-    ],
+    "prerequisites": [],
     "classroomUrl": "",
     "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
-    "type": "optional",
-    "description": ""
+    "type": "requirement",
+    "description": "Para realizar la Práctica Profesional Supervisada es obligatorio haber alcanzado al menos la regularidad en todos los espacios curriculares obligatorios hasta el cuarto año de la carrera."
   },
   {
-    "cod": 53,
-    "name": "Taller de Metodología de la Investigación Científica",
+    "cod": "R4",
+    "name": "Trabajo Final",
     "year": null,
     "semester": null,
-    "prerequisites": [
-      10
-    ],
+    "prerequisites": [],
     "classroomUrl": "",
-    "syllabusUrl": "https://drive.google.com/drive/folders/101t_nHGnI50_xh8D66wTiKO52PuKVCr5?usp=sharing",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
-    "type": "optional",
-    "description": ""
+    "type": "requirement",
+    "description": "Trabajo Final: la modalidad y requisitos para la realización del Trabajo Final, será reglamentada por la Facultad de Ingeniería de la UNJu, con el condicionamiento de que se cumpla con el mínimo de 200 horas para esta actividad."
   }
 ]

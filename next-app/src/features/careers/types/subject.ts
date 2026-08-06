@@ -18,6 +18,7 @@ export interface Subject {
   schedules: Schedule[]
   isOfferedBothSemesters?: boolean
   groupLink: string | null
+  syllabusUrl?: string | null
   drive: string
   isSelective: boolean
   type: "mandatory" | "optional" | "requirement"

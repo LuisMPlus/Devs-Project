@@ -1,11 +1,12 @@
 [
   {
     "cod": 1,
-    "name": "I.Qca(2°), I.Min(2°), I.Ind(2°), TUPM(2°)",
+    "name": "Álgebra Lineal",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/enrol/index.php?id=478",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1KfLKuS7mfgJauj0Qkm5vNX-B1KYpN3Xb?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -14,11 +15,14 @@
   },
   {
     "cod": 2,
-    "name": "I.Min (2° y 3°), TUPM(2°)",
+    "name": "Geometría Analítica",
     "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "semester": 2,
+    "prerequisites": [
+      1
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1APG9J82pA0klG9E9FCnPZnOZYwXzfk7E?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -27,11 +31,12 @@
   },
   {
     "cod": 3,
-    "name": "I.Inf(2° y 3°), L.Sis(3°), I.Min(2°)",
+    "name": "Análisis Matemático I",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=426",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1xPqUlQJ93BWiE0wMZriwD5Oa0IgEHCPy?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -40,11 +45,14 @@
   },
   {
     "cod": 4,
-    "name": "LCG(2°), TUCT(2°)",
+    "name": "Análisis Matemático II",
     "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "semester": 2,
+    "prerequisites": [
+      3
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1gSsN02TW-qncsQyrLrNqpY9fMDWvjUEg?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -53,11 +61,15 @@
   },
   {
     "cod": 5,
-    "name": "TUCTOP(2°), TUP(2°)",
+    "name": "Física I",
     "year": 1,
-    "semester": 1,
-    "prerequisites": [],
-    "classroomUrl": "",
+    "semester": 2,
+    "prerequisites": [
+      1,
+      3
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=113",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1hbEMSkKkIqTalR3ZlSrfXCyQWRRo5MfL?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -66,11 +78,12 @@
   },
   {
     "cod": 6,
-    "name": "I.Min(2° y 3°), TUPM(2°)",
+    "name": "Fundamentos de Programación",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2968",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1apgp1n6GaKMrQjiN_V5UYq2kwip_lNWV?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -79,11 +92,12 @@
   },
   {
     "cod": 7,
-    "name": "I.Min(2°), I.Ind(2°), I.Inf(2°), I.Qca(2°), TUEM(2°), TUPM(2°)",
+    "name": "Geología",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1WoTdunBRzVQJ38decBFWBAABCijnW1NP?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -92,11 +106,12 @@
   },
   {
     "cod": 8,
-    "name": "I.Min (2°), I.Ind(2°), Qca(2°)",
+    "name": "Fundamentos de Química",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=465",
+    "syllabusUrl": "https://drive.google.com/drive/folders/19KfZmzsGEokByf0tw-Std9NM-1OxumnK?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -105,11 +120,28 @@
   },
   {
     "cod": 9,
-    "name": "I.Min(2° y 3°), TUEM(2°), I.Qca(3°)",
+    "name": "Química General e Inorgánica",
     "year": 1,
-    "semester": 1,
+    "semester": 2,
+    "prerequisites": [
+      8
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2957",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1OHNXTjZLl5moPRSPPZPhWthTNDl-Wd8b?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": "T1",
+    "name": "Taller de Introducción a la Minería",
+    "year": 1,
+    "semester": 2,
     "prerequisites": [],
     "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -118,11 +150,14 @@
   },
   {
     "cod": 10,
-    "name": "I.Min (3°)",
-    "year": 1,
+    "name": "Física II",
+    "year": 2,
     "semester": 1,
-    "prerequisites": [],
+    "prerequisites": [
+      5
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1PfNY4W-gYuPwNU0ydzkKHHjXQdnfTNlO?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -131,11 +166,15 @@
   },
   {
     "cod": 11,
-    "name": "I.Min(3°), I.Qca(3°), TUEM(3°), TUPM(3°)",
-    "year": 1,
+    "name": "Análisis Matemático III",
+    "year": 2,
     "semester": 1,
-    "prerequisites": [],
+    "prerequisites": [
+      4,
+      2
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1iCau536oFo8SAcQt4jZTHERDWtvtPx2h?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -144,11 +183,15 @@
   },
   {
     "cod": 12,
-    "name": "I.Min (3°), TUEM(2°)",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "name": "Química Analítica e Instrumental",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      10,
+      13
+    ],
     "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -157,11 +200,15 @@
   },
   {
     "cod": 13,
-    "name": "TUEM(2°), I.Min(3°)",
-    "year": 1,
+    "name": "Química Analítica",
+    "year": 2,
     "semester": 1,
-    "prerequisites": [],
+    "prerequisites": [
+      4,
+      9
+    ],
     "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -170,11 +217,15 @@
   },
   {
     "cod": 14,
-    "name": "I.Min(4°), TUEM(2°)",
-    "year": 1,
+    "name": "Termodinámica",
+    "year": 2,
     "semester": 1,
-    "prerequisites": [],
+    "prerequisites": [
+      4,
+      8
+    ],
     "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -183,11 +234,14 @@
   },
   {
     "cod": 15,
-    "name": "I.Min(4°)",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "name": "Cálculo Numérico y Estadística",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      4
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1Hd1J7gH1nnMmTmq72MExL-1-qcyGiMLi?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -196,11 +250,14 @@
   },
   {
     "cod": 16,
-    "name": "I.Min(4°), TUEM(3°)",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "name": "Mineralogía",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      7
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1HuoLnOO-6-sDVxUGqcb0nESb51cPIIiX?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -209,11 +266,14 @@
   },
   {
     "cod": 17,
-    "name": "I.Min(4° Y 5°)",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "name": "Física III",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      10
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1A-Ig112gYng8mrMvrLFkVpgFTbaAEaTC?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -222,11 +282,14 @@
   },
   {
     "cod": 18,
-    "name": "LCG(5°), I.Min(4°), TUP(3°)",
-    "year": 1,
+    "name": "Medios de Representación",
+    "year": 3,
     "semester": 1,
-    "prerequisites": [],
+    "prerequisites": [
+      2
+    ],
     "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -235,11 +298,14 @@
   },
   {
     "cod": 19,
-    "name": "I.Min(5°)",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "name": "Software de Aplicación Minera I",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      6
+    ],
     "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -248,11 +314,14 @@
   },
   {
     "cod": 20,
-    "name": "I.Ind(4°), I.Qui(4°), I.Min(5°)",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "name": "Electricidad",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      10
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1XUmmPU-ZdTsOo4cK5tQOre3YYWxklWSh?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -261,11 +330,16 @@
   },
   {
     "cod": 21,
-    "name": "I.Min(3° y 5°), I.Qca(4°)",
-    "year": 1,
+    "name": "Procesamientos de Minerales I",
+    "year": 3,
     "semester": 1,
-    "prerequisites": [],
+    "prerequisites": [
+      12,
+      14,
+      16
+    ],
     "classroomUrl": "",
+    "syllabusUrl": null,
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -274,11 +348,14 @@
   },
   {
     "cod": 22,
-    "name": "I.Min, I.Ind, I.Inf, I.Qca, LCG, L.Sis, LTA, TUCT, TUCTOP, TUEM, TUP, TUPM",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "name": "Topografía",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      2
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1TuiW231eX6Kf5HqQ4hwhnKo1r0os73x5?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -287,11 +364,15 @@
   },
   {
     "cod": 23,
-    "name": "OPTATIVA:",
-    "year": 1,
+    "name": "Estática y Resistencia de los materiales",
+    "year": 3,
     "semester": 1,
-    "prerequisites": [],
+    "prerequisites": [
+      4,
+      5
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -300,11 +381,15 @@
   },
   {
     "cod": 24,
-    "name": "L.CG(opt), I.Qca(opt), I.Inf(opt), I.Ind(opt), I.Min(opt)",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
+    "name": "Mecánica de Rocas y Suelos",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      7,
+      23
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1wDdIMPF0WW41oox4_y_BtyMCl-l89jsS?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -313,11 +398,14 @@
   },
   {
     "cod": 25,
-    "name": "I.Qca(2°), I.Min(2°)",
-    "year": 1,
+    "name": "Petrografía y Petrología",
+    "year": 3,
     "semester": 1,
-    "prerequisites": [],
-    "classroomUrl": "",
+    "prerequisites": [
+      16
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=1075",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1RqY26UIL3bh8XqDMxlfC0u3vLaU7MZTA?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -326,11 +414,14 @@
   },
   {
     "cod": 26,
-    "name": "I.Min(3°), TUEM(2°)",
-    "year": 1,
-    "semester": 1,
-    "prerequisites": [],
-    "classroomUrl": "",
+    "name": "Yacimientos Minerales",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      25
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2948",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1mKfRJqTPxRpUIlfPji0_TEwt_LKvCWff?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -339,15 +430,434 @@
   },
   {
     "cod": 27,
-    "name": "I.Inf(optativa), I.Min(optativa)",
-    "year": 1,
+    "name": "Economía Minera y Dirección y Organización de Empresas",
+    "year": 4,
     "semester": 1,
-    "prerequisites": [],
-    "classroomUrl": "",
+    "prerequisites": [
+      15
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=501",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1KwhoFmMKvhx9CFG8Dl5rPfMhMHPS_WnK?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
     "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 28,
+    "name": "Máquinas Mineras y Servicios",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      20,
+      22
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1XlDDtx35Cwv0Q0oLpzzPbQwwXQ15sW50?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 29,
+    "name": "Metalurgia de Litio y Evaporitas",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      12,
+      14,
+      16
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 30,
+    "name": "Procesamiento de Minerales II",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      21
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1HyHcCiMHeL8vHcXNYFCFsBameGKt0Pd3?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 31,
+    "name": "Legislación Minera y Ética Profesional",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      8
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 32,
+    "name": "Construcciones Mineras",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      18,
+      24
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1gzqHZOH4gloY1a8cJpFwNKpXG2VTFd3Y?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 33,
+    "name": "Explotación de Minas I",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      18,
+      24
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1SeMWxzRpXbLynDhCWYEdBpz4VMZdFolX?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 34,
+    "name": "Higiene y Seguridad del Trabajo",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      8
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1iO1K8FzcTjrlacyZdUqtIJxpd9i6auoX?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 35,
+    "name": "Prospección y Exploración",
+    "year": 4,
+    "semester": 2,
+    "prerequisites": [
+      25,
+      27
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/10MWXzX1NGhruRs5chfjjTLdNjD-KSo-i?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 36,
+    "name": "Conceptos de Metalurgia",
+    "year": 4,
+    "semester": 1,
+    "prerequisites": [
+      21
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1msU6AhV4Kg7plAh3TJLGkCQcSGylz6Z3?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 37,
+    "name": "Planificación de Minas",
+    "year": 5,
+    "semester": 1,
+    "prerequisites": [
+      33,
+      35
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1DuZm9oUoZHgO3xChTpZo2UDs-lX_Q5zf?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 38,
+    "name": "Explotación de Minas II",
+    "year": 5,
+    "semester": 1,
+    "prerequisites": [
+      33
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1k9ga-ySW7GAkSomt5I6Pp6OAuittYyes?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 39,
+    "name": "Formulación y Evaluación de Proyectos",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      31,
+      37
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1J7m8lIg-KHuRzKSpHvCrUeeKzyvbAnHE?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 40,
+    "name": "Procesamiento de Minerales III",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      30
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1bcVBJqWLVjztuFUa4WM1paXfry_hAW2g?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 41,
+    "name": "Ingeniería de la Producción y de la Empresa",
+    "year": 5,
+    "semester": 1,
+    "prerequisites": [
+      27,
+      31,
+      34
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1XpQYZ-nfWKo5HTYXEqlwTdafMX9CcSgw?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 42,
+    "name": "Software de Aplicación Minera II",
+    "year": 5,
+    "semester": 1,
+    "prerequisites": [
+      19,
+      26,
+      33,
+      35
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1-1mP6F73ZIv2j281kxMCmUDOFoJWeleS?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 43,
+    "name": "Gestión Ambiental",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      29,
+      30,
+      31
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/10fSH5Krp8bXQBBWSyWR2t6qS-CV7Dnu0?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 44,
+    "name": "Hidrometalurgia y Electrometalurgia",
+    "year": 5,
+    "semester": 1,
+    "prerequisites": [
+      36
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 45,
+    "name": "Ingeniería de la Calidad",
+    "year": 5,
+    "semester": 2,
+    "prerequisites": [
+      27,
+      41
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/176WTBefAZZdwluyH4d_I7E_DfFr4AUJK?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 46,
+    "name": "Simulación de Procesos Mineralúrgicos",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": 47,
+    "name": "Administración de Recursos Minerales",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": 48,
+    "name": "Seminario de Explosivos",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": 49,
+    "name": "Inteligencia Emocional y Gestión de Recursos Humanos",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": 50,
+    "name": "Comercialización de Minerales",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": 51,
+    "name": "Desarrollo de Software Aplicado a la Industria Minera",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": 52,
+    "name": "Gestión y Desarrollo de Recursos Humanos",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
+    "description": ""
+  },
+  {
+    "cod": 53,
+    "name": "Modelado y Procesos de Negocios",
+    "year": null,
+    "semester": null,
+    "prerequisites": [],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "optional",
     "description": ""
   }
 ]

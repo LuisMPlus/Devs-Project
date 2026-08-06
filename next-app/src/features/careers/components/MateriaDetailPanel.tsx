@@ -33,7 +33,8 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
   const getSubjectType = (subject: Subject): number => {
     if (subject.type === 'requirement') return 0 // Requisitos
     if (subject.type === 'optional') return 99 // Optativas/Otros
-    return Number(subject.year)
+    const parsed = Number(subject.year)
+    return isNaN(parsed) || parsed <= 0 ? 1 : parsed
   }
 
   const color = subject ? YEAR_COLORS[getSubjectType(subject)] || '#02ffff' : '#02ffff'
@@ -146,7 +147,10 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
                     style={{ color }}
                   >
                     {subject.year === 0 || subject.year === 99 || subject.type === 'requirement' || subject.type === 'optional'
-                      ? 'Materias Especiales'
+                      ? [
+                          subject.type === 'optional' ? 'Materia Optativa' : subject.type === 'requirement' ? 'Requisito Extra' : 'Materia Especial',
+                          subject.semester ? `Cuatrimestre ${subject.semester}` : null
+                        ].filter(Boolean).join(' · ')
                       : [
                           subject.year ? `Año ${subject.year}` : null,
                           subject.semester ? `Cuatrimestre ${subject.semester}` : null
@@ -293,6 +297,43 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
                 </section>
               )}
 
+              {(subject.syllabusUrl || (subject.drive && subject.drive.trim() !== '')) && (
+                <section>
+                  <h3 className="text-xs font-semibold uppercase tracking-widest mb-3"
+                    style={{ color: 'color-mix(in srgb, var(--color-text) 45%, transparent)' }}>
+                    Programa Analítico
+                  </h3>
+                  <a
+                    href={(subject.syllabusUrl || subject.drive)!}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 px-4 py-3 rounded-xl border transition-all duration-150 group"
+                    style={{
+                      borderColor: `color-mix(in srgb, #3b82f6 25%, transparent)`,
+                      backgroundColor: `color-mix(in srgb, #3b82f6 6%, transparent)`,
+                      color: 'var(--color-text)',
+                      textDecoration: 'none',
+                    }}
+                    onMouseEnter={e => {
+                      (e.currentTarget as HTMLAnchorElement).style.backgroundColor = `color-mix(in srgb, #3b82f6 12%, transparent)`
+                    }}
+                    onMouseLeave={e => {
+                      (e.currentTarget as HTMLAnchorElement).style.backgroundColor = `color-mix(in srgb, #3b82f6 6%, transparent)`
+                    }}
+                  >
+                    <svg className="w-4 h-4 shrink-0 text-[#3b82f6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                    <span className="text-sm truncate flex-1 text-[#3b82f6] font-medium">
+                      Programa Analítico (Drive)
+                    </span>
+                    <svg className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 shrink-0 text-[#3b82f6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                  </a>
+                </section>
+              )}
+
               {subject.schedules && subject.schedules.length > 0 && (
                 <section>
                   <h3 className="text-xs font-semibold uppercase tracking-widest mb-3"
@@ -399,9 +440,9 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
                         Correlativas
                       </h3>
                       <div className="flex flex-col gap-1.5 mb-6">
-                        {prerequisitesData.map(({ num, name, isSuspended, isAdded }) => (
+                        {prerequisitesData.map(({ num, name, isSuspended, isAdded }, idx) => (
                           <div
-                            key={String(num) + name}
+                            key={`prereq-${String(num)}-${idx}`}
                             className={`flex items-center gap-2 text-sm px-3 py-2 rounded-lg ${isSuspended ? 'opacity-60' : ''}`}
                             style={{
                               backgroundColor: 'color-mix(in srgb, var(--color-text) 4%, transparent)',
@@ -431,9 +472,9 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
                         Correlativas Indirectas (Requisitos Previos)
                       </h3>
                       <div className="flex flex-col gap-1.5">
-                        {indirectPrerequisitesData.map(({ num, name }) => (
+                        {indirectPrerequisitesData.map(({ num, name }, idx) => (
                           <div
-                            key={name}
+                            key={`indirect-${String(num)}-${idx}`}
                             className="flex items-center gap-2 text-sm px-3 py-2 rounded-lg"
                             style={{
                               backgroundColor: 'color-mix(in srgb, var(--color-text) 2%, transparent)',
@@ -469,9 +510,9 @@ export default function SubjectDetailPanel({ subject, subjects, onClose }: Props
                     Esta materia es correlativa de:
                   </h3>
                   <div className="flex flex-col gap-1.5">
-                    {opensData.map(({ num, name }) => (
+                    {opensData.map(({ num, name }, idx) => (
                       <div
-                        key={String(num)}
+                        key={`opens-${String(num)}-${idx}`}
                         className="flex items-center gap-2 text-sm px-3 py-2 rounded-lg"
                         style={{
                           backgroundColor: 'color-mix(in srgb, var(--color-text) 2%, transparent)',

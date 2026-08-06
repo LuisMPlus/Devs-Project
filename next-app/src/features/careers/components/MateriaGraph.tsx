@@ -51,7 +51,8 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
   const getSubjectType = (subject: Subject): number => {
     if (subject.type === 'requirement') return 0 // Requisitos
     if (subject.type === 'optional') return 99 // Optativas/Otros
-    return Number(subject.year)
+    const parsed = Number(subject.year)
+    return isNaN(parsed) || parsed <= 0 ? 1 : parsed
   }
 
   const [hovered, setHovered] = useState<number | string | null>(null)
@@ -155,7 +156,7 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
         if (!prereqs.includes(p as never)) prereqs.push(p)
       }
     }
-    return prereqs
+    return Array.from(new Set(prereqs))
   }
 
   // Correlativas to highlight on hover
@@ -255,6 +256,14 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
              }}>
           {num}
         </div>
+
+        {/* Cuatrimestre */}
+        {subject.semester && (
+          <div className="absolute top-1.5 right-2 font-bold pointer-events-none select-none"
+               style={{ fontSize: `${FONT_CORR}px`, color: colors.text, opacity: isActive ? 0.6 : 0.3 }}>
+            {subject.semester}º Cuat.
+          </div>
+        )}
 
         {/* Text */}
         <div className="flex flex-col items-center justify-center pointer-events-none select-none"
@@ -410,7 +419,9 @@ export default function SubjectGraph({ subjects, onSelect, groupBySemester = fal
           {/* Nodos de años 1 al 5 */}
           {regularSubjects.map((subject) => {
             const num = subject.cod
-            const { x, y } = positions[subject.cod]
+            const pos = positions[subject.cod]
+            if (!pos) return null
+            const { x, y } = pos
             const colors = YEAR_COLORS[getSubjectType(subject)] || YEAR_COLORS[1]
             const isActive = isMobile || hovered === null || highlightedIds.has(subject.cod)
             const isHovered = !isMobile && hovered === subject.cod

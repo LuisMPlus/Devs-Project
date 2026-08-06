@@ -1,11 +1,12 @@
 [
   {
     "cod": 1,
-    "name": "TUDIVJ (1°)",
+    "name": "Introducción al Desarrollo de Videojuegos",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2522",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1mavVv5_dVzghi07Nrsil9ILDq1eVDbZO?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -14,11 +15,12 @@
   },
   {
     "cod": 2,
-    "name": "1er año TUDIVJ",
+    "name": "Fundamentos de Programación Orientada a Objetos",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2537",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1nm4QOfb0UeH33PyS5aK0rnYBvqe42SIW?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -27,11 +29,12 @@
   },
   {
     "cod": 3,
-    "name": "TUDIVJ (2°)",
+    "name": "Base de Datos",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
-    "classroomUrl": "",
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2523",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1MLiODZN2UX-HdnDNMDRLVp4YTJPYf39D?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",
@@ -40,11 +43,389 @@
   },
   {
     "cod": 4,
-    "name": "TUDIVJ (3°)",
+    "name": "Inglés I",
     "year": 1,
     "semester": 1,
     "prerequisites": [],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2011",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1Zhn7nsjGoSOk5HLbRiAq5wlg5CTHTLWH?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 5,
+    "name": "Programación de Videojuegos I",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      1,
+      2
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2520",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1vNTVsA66GAx7emYvwxO7EOB6KRkKcKZF?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 6,
+    "name": "Psicología de los Juegos",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      1
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2521",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1Qidgxdlc5UPgrTcrI_JXDvkuNogCP9n_?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 7,
+    "name": "Fundamentos de Programación Web",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      2,
+      3
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2519",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1bIr_pbzRrlKZbuJv6_Lc5BrR16At8ues?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 8,
+    "name": "Inglés II",
+    "year": 1,
+    "semester": 2,
+    "prerequisites": [
+      4
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2312",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1bPrVnIxbQOpiGT4Oa-3IxdxGE00qF-zu?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 9,
+    "name": "Diseño de Videojuegos I",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      5
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2698",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1-q6-cy7n5JBTawdITWt-_cpoRqQutK8G?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 10,
+    "name": "Animación I",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      5,
+      6
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2707",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1B9HKvVo5ucDDrwzKKlRy4HhokPZ7esPN?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 11,
+    "name": "Planeamiento de Mecánicas y Dinámicas de Juego",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      5
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2692",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1B9qfTnBG06xVCn_tPwpKTR-fEtot2E2P?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 12,
+    "name": "Diseño de Sonido I",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      5,
+      7
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2706",
+    "syllabusUrl": "https://drive.google.com/drive/folders/13xyvBv75O-qvRBxoPh0kv_-BENK7xuDo?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 13,
+    "name": "Inglés III",
+    "year": 2,
+    "semester": 1,
+    "prerequisites": [
+      8
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2699",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1D-R5NGRw1GM3VC2_nrvXC_ygC6nGNEVL?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 14,
+    "name": "Diseño de Sonido II",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      12
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2833",
+    "syllabusUrl": "https://drive.google.com/drive/folders/17cTgoGjmnPzSrJe7b5bTBF8isi5Pzkbz?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 15,
+    "name": "Programación de Videojuegos II",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      11,
+      12
+    ],
     "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1JBR5kxvP7SWC3uUx5rTnpKgnSDeZQLIk?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 16,
+    "name": "Diseño de Videojuegos II",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      10,
+      12
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2869",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1vpMqvE3dmZhaCLjyCFiu9HTOnqma9RAo?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 17,
+    "name": "Animación II",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      10,
+      11
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2813",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1b5iFxQBOWek38hNiczyGCfgMeY9YkM7L?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 18,
+    "name": "Inglés IV",
+    "year": 2,
+    "semester": 2,
+    "prerequisites": [
+      13
+    ],
+    "classroomUrl": "https://virtual.unju.edu.ar/course/view.php?id=2817",
+    "syllabusUrl": "https://drive.google.com/drive/folders/13tnZOz7gA9CTMnyIHK7-QjdosJb3OkYi?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 19,
+    "name": "Inteligencia Artificial I",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      15
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1mwfStZ9O3nWIrbVJdawEo7kV47Xqx1El?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 20,
+    "name": "Taller de Proyectos I",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      16,
+      17
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/10pEf_q_lYzNW7w2AGmC7NZEkfWjwtuck?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 21,
+    "name": "Práctica en Dirección y Gestión de Proyectos de Videojuegos I",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      16
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/14XhAgTOmXYUXaEDnysnO54MVZMj8kez_?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 22,
+    "name": "Inglés V",
+    "year": 3,
+    "semester": 1,
+    "prerequisites": [
+      18
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1robDNv4Q4kxqoX2oeSVmLzOsRcH-QHBg?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 23,
+    "name": "Inteligencia Artificial II",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      19
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1QDC0BdqhAByCtqtpYWDN3G1ZQ5OAp2WY?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 24,
+    "name": "Taller de Proyectos II",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      20
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": null,
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 25,
+    "name": "Práctica en Dirección y Gestión de Proyectos de Videojuegos II",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      21
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1KKWAZM2bhlAZRGCwVIZI_0rtV89CpQa7?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 26,
+    "name": "Diseño según Plataforma de Juegos",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      14,
+      16
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1YEpsE7tPGajDk9rPkk29gmfiS6pLH37r?usp=sharing",
+    "isOfferedBothSemesters": false,
+    "groupLink": null,
+    "drive": "",
+    "type": "mandatory",
+    "description": ""
+  },
+  {
+    "cod": 27,
+    "name": "Diseño de Interfaces y Jugabilidad",
+    "year": 3,
+    "semester": 2,
+    "prerequisites": [
+      16
+    ],
+    "classroomUrl": "",
+    "syllabusUrl": "https://drive.google.com/drive/folders/1_DQDsFeL7np47hFEoxLRd72tnwp4p7Z2?usp=sharing",
     "isOfferedBothSemesters": false,
     "groupLink": null,
     "drive": "",

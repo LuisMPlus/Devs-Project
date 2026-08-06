@@ -34,6 +34,66 @@ const CARRERAS = [
       </svg>
     ),
   },
+  {
+    id: 'ingenieria-quimica',
+    label: 'Ingeniería Química',
+    path: '/carreras/ingenieria-quimica',
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5.032 14.47A4.5 4.5 0 008.214 21h7.572a4.5 4.5 0 003.182-6.53l-4.059-4.06a2.25 2.25 0 01-.659-1.591V3.104M9.75 3.104c-.251.037-.502.085-.75.145m8.25-.145c.248.037.499.085.75.145M9.75 3.104h4.5" />
+      </svg>
+    ),
+  },
+  {
+    id: 'ingenieria-industrial',
+    label: 'Ingeniería Industrial',
+    path: '/carreras/ingenieria-industrial',
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h6M9 12h6M9 17.25h6" />
+      </svg>
+    ),
+  },
+  {
+    id: 'ingenieria-de-minas',
+    label: 'Ingeniería de Minas',
+    path: '/carreras/ingenieria-de-minas',
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+      </svg>
+    ),
+  },
+  {
+    id: 'licenciatura-en-cs-geologicas',
+    label: 'Licenciatura en Ciencias Geológicas',
+    path: '/carreras/licenciatura-en-cs-geologicas',
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18zM12 3v18" />
+      </svg>
+    ),
+  },
+  {
+    id: 'licenciatura-en-tecnologia-de-los-alimentos',
+    label: 'Licenciatura en Tecnología de los Alimentos',
+    path: '/carreras/licenciatura-en-tecnologia-de-los-alimentos',
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+      </svg>
+    ),
+  },
+  {
+    id: 'tecnicatura-universitaria-en-diseno-integral-de-videojuegos',
+    label: 'Tecnicatura Universitaria en Diseño Integral de Videojuegos',
+    path: '/carreras/tecnicatura-universitaria-en-diseno-integral-de-videojuegos',
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+      </svg>
+    ),
+  },
 ]
 
 export default function Carreras() {
@@ -48,7 +108,7 @@ export default function Carreras() {
         style={{ backgroundColor: 'var(--color-secondary)' }}
       />
 
-      <div className="relative z-10 w-full max-w-md my-12">
+      <div className="relative z-10 w-full max-w-lg my-12">
         <button
           onClick={() => router.push('/')}
           className="inline-flex items-center gap-2 text-sm mb-8 transition-all duration-150"

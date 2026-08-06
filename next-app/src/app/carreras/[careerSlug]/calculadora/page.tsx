@@ -11,6 +11,12 @@ const SLUG_MAP: Record<string, string> = {
   'ingenieria-informatica': 'computer-engineering',
   'licenciatura-en-sistemas': 'bachelor-in-systems',
   'apu': 'apu',
+  'ingenieria-quimica': 'chemical-engineering',
+  'ingenieria-industrial': 'industrial-engineering',
+  'ingenieria-de-minas': 'mining-engineering',
+  'licenciatura-en-cs-geologicas': 'geological-sciences',
+  'licenciatura-en-tecnologia-de-los-alimentos': 'food-technology',
+  'tecnicatura-universitaria-en-diseno-integral-de-videojuegos': 'game-design-technique',
 }
 
 interface PageProps {
